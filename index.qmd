@@ -1,25 +1,39 @@
 ---
-title: "Alicia"
-subtitle: "Data Scientist"
+title: "Diane & Teo Science"
+subtitle: "Les données pour mieux comprendre le monde"
 # `profile.jpg` photo by Jan Tinneberg on https://unsplash.com
-image: profile.jpg
+image: Diane & Teo.png
 about: # https://quarto.org/docs/websites/website-about.html
   template: jolla
+  image-shape: rectangle
   links:
     - icon: github
-      text: Github
-      href: https://github.com
+      text: Github Teo
+      href: https://github.com/teodoromouniertebas
     - icon: linkedin
-      text: LinkedIn
-      href: https://linkedin.com
+      text: Linkedin Teo
+      href: https://www.linkedin.com/in/teodoro-mounier-tebas-a423341a3/
+    - icon: github
+      text: Github Diane
+      href: https://github.com/dianethy
+    - icon: linkedin
+      text: Linkedin Diane
+      href: https://www.linkedin.com/in/diane-thierry-b22099193/
 ---
 
-A little bit about me and my life.
+```{=html}
+<style>
 
-## Education
+  .justify {
+    text-align: justify;
+  }
 
-University of XYZ, City \| Location \| Sept 20XX - June 20XX
+</style>
+```
 
-## Experience
+::: justify
+Nous sommes un couple de data scientists passionnés qui s'est rencontré à l'université lors de nos études d'économie. Après avoir approfondi nos connaissances avec un master en **économétrie et statistiques appliquées** ([Master ECAP](https://sites.google.com/view/master-ecap/accueil)), nous évoluons aujourd'hui chacun dans des entreprises différentes.
 
-Workplace \| Job title \| April 20XX - present
+
+Ce site web rassemble et présente nos projets personnels en data science, motivés par notre passion et expertise pour l'analyse de données. Notre approche se veut ouverte en rendant accessibles nos méthodes, nos codes et nos réflexions.
+:::

@@ -6,12 +6,13 @@
 /* Colors */
 $primary-color: #0a2654; /* Couleur principale */
 $secondary-color: #9e2e12; /* Couleur secondaire */
-$tertiary-color: #536787; /* Couleur tertiaire */
-$quaternary-color: #5b6c3e; /* Quatrième couleur */
+$tertiary-color: #5b6c3e; /* Couleur tertiaire */
+$quaternary-color: #b5bdcb; /* Quatrième couleur */
 $quinary-color: #ebd5cf; /* Cinquième couleur */
 $senary-color: #dee1d8; /* Sixième couleur */
 $background-color: #f8f9fa; /* Couleur de fond */
 $border-color: #dee2e6; /* Couleur de bordure */
+$font-color: #343a40; /* Couleur de police */
 
 
 /* Links */
@@ -33,6 +34,14 @@ a:active {
 }
 
 
+/* Body */
+$body-bg: #FFFFFF;
+$body-color: rgb(55, 58, 60);
+
+
+
+
+
 
 /* Custom les titres et body */
 h1.title { /*titre général du document*/
@@ -49,41 +58,40 @@ h1.title { /*titre général du document*/
   font-family: "Arial"; /*police*/
   font-weight: bold; /*gras*/
 }
-main h1 { /*titre de niveau #1*/
+h1 { /*titre de niveau #1*/
   color: $primary-color; /*couleur titre*/
-  font-size: 3em; /*taille*/
+  font-size: 2.8em; /*taille*/
   font-weight: bold; /*gras*/
 }
-main h2 { /*titre de niveau #2*/
+h2 { /*titre de niveau #2*/
   color: $secondary-color; /*couleur titre*/
   font-size: 2.5em; /*taille*/
   font-weight: bold; /*gras*/
 }
-main h3 { /*titre de niveau #3*/
+h3 { /*titre de niveau #3*/
   color: $tertiary-color; /*couleur titre*/
-  font-size: 2em; /*taille*/
+  font-size: 2.3em; /*taille*/
   font-weight: bold; /*gras*/
 }
-main h4 { /*titre de niveau #4*/
+h4 { /*titre de niveau #4*/
   color: $quaternary-color; /*couleur titre*/
-  font-size: 1.7em; /*taille*/
+  font-size: 2.2em; /*taille*/
   font-weight: bold; /*gras*/
 }
-main h5 { /*titre de niveau #5*/
+h5 { /*titre de niveau #5*/
   color: $quinary-color; /*couleur titre*/
   font-size: 1.7em; /*taille*/
 }
-main h6 { /*titre de niveau #5*/
+h6 { /*titre de niveau #5*/
   color: $senary-color; /*couleur titre*/
   font-size: 1.5em; /*taille*/
 }
-main.content { /*corps de texte*/
+body { /*corps de texte*/
   text-align: justify; /*texte justifié*/
   font-size: 1em; /*taille*/
-  font-family: "Arial"; /*police*/
+  font-family: "Helvetica regular"; /*police*/
   letter-spacing: 0px; /*pas d'espace entre les lettres*/
   list-style: disc inside; /*listes en bullet-points*/
-  color: #343a40;
 }
 h1, h2, h3, h4, h5, h6 {
   text-align: left;
