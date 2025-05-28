@@ -6,49 +6,82 @@ date: today
 toc: true
 ---
 
-## Quarto
+# Quarto
 
 Quarto enables you to weave together content and executable code into a finished document. To learn more about Quarto see <https://quarto.org>.
 
 
 ## Running Code
 
-When you click the **Render** button a document will be generated that includes both content and the output of embedded code. You can embed code like this:
-
-```{r}
-1 + 1
-```
-
-You can add options to executable code like this
-
-```{r}
-#| echo: false
-2 * 2
-```
-
-The `echo: false` option disables the printing of code (only output is displayed).
-
 ### Running Code
-
 When you click the **Render** button a document will be generated that includes both content and the output of embedded code. You can embed code like this:
 
 ```{r}
-1 + 1
+radius <- 5
 ```
 
-
-#### Running Code
-
+#### bblabla 
 When you click the **Render** button a document will be generated that includes both content and the output of embedded code. You can embed code like this:
 
+
+### Running Code bis
+When you click the **Render** button a document will be generated that `{r} radius` includes both content and the output of embedded code. You can embed code like this:
+
+
+
+## Running Code
+
+### blblbk
+
+::: {.callout-note}
+Note that there are five types of callouts, including:
+`note`, `warning`, `important`, `tip`, and `caution`.
+:::
+
+::: {.callout-tip}
+## conseil
+
+This is an example of a callout with a title.
+:::
+
+::: {.callout-caution}
+## prudence
+
+This is an example of a callout with a title.
+:::
+
+
+::: {.callout-warning}
+## avertissement
+
+This is an example of a callout with a title.
+:::
+
+::: {.callout-important}
+## important
+
+This is an example of a callout with a title.
+:::
+
+
+
+
 ```{r}
-1 + 1
+radius <- 5
 ```
 
-#### Running Code
+### blblbk
+When you click the **Render** button a document will be generated that `{r} radius` includes both content and the output of embedded code. You can embed code like this:
 
+
+# Rstudio
+
+Quarto enables you to weave together content and executable code into a finished document. To learn more about Quarto see <https://quarto.org>.
+
+
+## Running Code
+### Running Code
 When you click the **Render** button a document will be generated that includes both content and the output of embedded code. You can embed code like this:
 
-```{r}
-1 + 1
-```
+### Running Code bis
+When you click the **Render** button a document will be generated that `{r} radius` includes both content and the output of embedded code. You can embed code like this:

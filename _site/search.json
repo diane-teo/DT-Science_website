@@ -39,7 +39,7 @@
     "href": "test.html",
     "title": "test",
     "section": "",
-    "text": "Quarto enables you to weave together content and executable code into a finished document. To learn more about Quarto see https://quarto.org."
+    "text": "Quarto enables you to weave together content and executable code into a finished document. To learn more about Quarto see https://quarto.org.\n\n\n\n\nWhen you click the Render button a document will be generated that includes both content and the output of embedded code. You can embed code like this:\n\nradius &lt;- 5\n\n\n\nWhen you click the Render button a document will be generated that includes both content and the output of embedded code. You can embed code like this:\n\n\n\n\nWhen you click the Render button a document will be generated that 5 includes both content and the output of embedded code. You can embed code like this:\n\n\n\n\n\n\n\n\n\n\n\n\nNote\n\n\n\nNote that there are five types of callouts, including: note, warning, important, tip, and caution.\n\n\n\n\n\n\n\n\nconseil\n\n\n\nThis is an example of a callout with a title.\n\n\n\n\n\n\n\n\nprudence\n\n\n\nThis is an example of a callout with a title.\n\n\n\n\n\n\n\n\navertissement\n\n\n\nThis is an example of a callout with a title.\n\n\n\n\n\n\n\n\nimportant\n\n\n\nThis is an example of a callout with a title.\n\n\n\nradius &lt;- 5\n\n\n\n\nWhen you click the Render button a document will be generated that 5 includes both content and the output of embedded code. You can embed code like this:"
   },
   {
     "objectID": "test.html#quarto",
@@ -52,8 +52,8 @@
     "objectID": "test.html#running-code",
     "href": "test.html#running-code",
     "title": "test",
-    "section": "Running Code",
-    "text": "Running Code\nWhen you click the Render button a document will be generated that includes both content and the output of embedded code. You can embed code like this:\n\n1 + 1\n\n[1] 2\n\n\nYou can add options to executable code like this\n\n\n[1] 4\n\n\nThe echo: false option disables the printing of code (only output is displayed).\n\nRunning Code\nWhen you click the Render button a document will be generated that includes both content and the output of embedded code. You can embed code like this:\n\n1 + 1\n\n[1] 2\n\n\n\nRunning Code\nWhen you click the Render button a document will be generated that includes both content and the output of embedded code. You can embed code like this:\n\n1 + 1\n\n[1] 2\n\n\n\n\nRunning Code\nWhen you click the Render button a document will be generated that includes both content and the output of embedded code. You can embed code like this:\n\n1 + 1\n\n[1] 2"
+    "section": "",
+    "text": "When you click the Render button a document will be generated that includes both content and the output of embedded code. You can embed code like this:\n\nradius &lt;- 5\n\n\n\nWhen you click the Render button a document will be generated that includes both content and the output of embedded code. You can embed code like this:\n\n\n\n\nWhen you click the Render button a document will be generated that 5 includes both content and the output of embedded code. You can embed code like this:"
   },
   {
     "objectID": "projects/index.html",
@@ -89,5 +89,40 @@
     "title": "Diane & Teo Science",
     "section": "Titre 2",
     "text": "Titre 2"
+  },
+  {
+    "objectID": "test.html#partie-1-running-code",
+    "href": "test.html#partie-1-running-code",
+    "title": "test",
+    "section": "",
+    "text": "When you click the Render button a document will be generated that includes both content and the output of embedded code. You can embed code like this:\n\nradius &lt;- 5\n\n\n\n\nWhen you click the Render button a document will be generated that 5 includes both content and the output of embedded code. You can embed code like this:"
+  },
+  {
+    "objectID": "test.html#partie-2-running-code",
+    "href": "test.html#partie-2-running-code",
+    "title": "test",
+    "section": "",
+    "text": "When you click the Render button a document will be generated that includes both content and the output of embedded code. You can embed code like this:\n\nradius &lt;- 5\n\n\n\n\nWhen you click the Render button a document will be generated that 5 includes both content and the output of embedded code. You can embed code like this:"
+  },
+  {
+    "objectID": "test.html#partie-1-running-code-1",
+    "href": "test.html#partie-1-running-code-1",
+    "title": "test",
+    "section": "Partie 1 Running Code",
+    "text": "Partie 1 Running Code\n\na - Running Code\nWhen you click the Render button a document will be generated that includes both content and the output of embedded code. You can embed code like this:\n\n\nb - Running Code bis\nWhen you click the Render button a document will be generated that 5 includes both content and the output of embedded code. You can embed code like this:"
+  },
+  {
+    "objectID": "test.html#running-code-2",
+    "href": "test.html#running-code-2",
+    "title": "test",
+    "section": "",
+    "text": "Note\n\n\n\nNote that there are five types of callouts, including: note, warning, important, tip, and caution.\n\n\n\n\n\n\n\n\nconseil\n\n\n\nThis is an example of a callout with a title.\n\n\n\n\n\n\n\n\nprudence\n\n\n\nThis is an example of a callout with a title.\n\n\n\n\n\n\n\n\navertissement\n\n\n\nThis is an example of a callout with a title.\n\n\n\n\n\n\n\n\nimportant\n\n\n\nThis is an example of a callout with a title.\n\n\n\nradius &lt;- 5\n\n\n\n\nWhen you click the Render button a document will be generated that 5 includes both content and the output of embedded code. You can embed code like this:"
+  },
+  {
+    "objectID": "test.html#running-code-3",
+    "href": "test.html#running-code-3",
+    "title": "test",
+    "section": "Running Code",
+    "text": "Running Code\n\nRunning Code\nWhen you click the Render button a document will be generated that includes both content and the output of embedded code. You can embed code like this:\n\n\nRunning Code bis\nWhen you click the Render button a document will be generated that 5 includes both content and the output of embedded code. You can embed code like this:"
   }
 ]

@@ -1,25 +1,23 @@
 /*-- scss:defaults --*/
 
-// Sass Variables
-// https://quarto.org/docs/output-formats/html-themes.html#sass-variables
 
-/* Colors */
-$primary-color: #0a2654; /* Couleur principale */
-$secondary-color: #9e2e12; /* Couleur secondaire */
-$tertiary-color: #536787; /* Couleur tertiaire */
-$quaternary-color: #5b6c3e; /* Quatrième couleur */
-$quinary-color: #ebd5cf; /* Cinquième couleur */
-$senary-color: #dee1d8; /* Sixième couleur */
-$background-color: #f8f9fa; /* Couleur de fond */
-$border-color: #dee2e6; /* Couleur de bordure */
+/* Basic Colors */
+$primary: #0a2654; 
+$secondary: #9e2e12;
+$tertiary: #5b6c3e;
+$quaternary: #536787; 
+$quinary: #b15741;
+$senary:#ffcb4d;  
+$septenary: #cf5d00;
+$text-color: #343a40;
+$navbar-bg-color: #e9e9ea;
+$codeblock-bg-color:#f3f3f4;
 
-$code-block-bg: $quinary-color;
-$navbar-bg: $primary-color;
 
-/* Links */
-$link-color: #b15741; /* Couleur des liens */
-$link-hover-color: #9e2e12; /* Couleur des liens au survol */
-$link-visited-color: #9e2e12; /* Couleur des liens visités */
+/* Links Colors*/
+$link-color: $quinary; 
+$link-hover-color: $secondary; 
+$link-visited-color: $secondary; 
 
 a:link {
   text-decoration: none;
@@ -34,60 +32,20 @@ a:active {
   text-decoration: underline;
 }
 
+/* Copy button Colors*/
+$btn-code-copy-color: $quinary; 
+$btn-code-copy-color-active: $secondary; 
 
+/* Navbar Colors*/
+$navbar-bg: $navbar-bg-color;
+$navbar-fg: $text-color;
 
-/* Custom les titres et body */
-h1.title { /*titre général du document*/
-  color: $primary-color; /*couleur titre*/
-  font-size: 3.2em; /*taille*/
-  font-family: "Times New Roman"; /*police*/
-  font-weight: bold; /*gras*/
-  border-top: 0px; /*pas de ligne horizontale avant*/
-  padding-left: 0px; /*tout à gauche, pas d'alinéa*/
-}
-.subtitle.lead{ /*sous-titre*/
-  color: $primary-color; /*couleur titre*/
-  font-size: 1.24em; /*taille*/
-  font-family: "Arial"; /*police*/
-  font-weight: bold; /*gras*/
-}
-main h1 { /*titre de niveau #1*/
-  color: $primary-color; /*couleur titre*/
-  font-size: 3em; /*taille*/
-  font-weight: bold; /*gras*/
-}
-main h2 { /*titre de niveau #2*/
-  color: $secondary-color; /*couleur titre*/
-  font-size: 2.5em; /*taille*/
-  font-weight: bold; /*gras*/
-}
-main h3 { /*titre de niveau #3*/
-  color: $tertiary-color; /*couleur titre*/
-  font-size: 2em; /*taille*/
-  font-weight: bold; /*gras*/
-}
-main h4 { /*titre de niveau #4*/
-  color: $quaternary-color; /*couleur titre*/
-  font-size: 1.7em; /*taille*/
-  font-weight: bold; /*gras*/
-}
-main h5 { /*titre de niveau #5*/
-  color: $quinary-color; /*couleur titre*/
-  font-size: 1.7em; /*taille*/
-}
-main h6 { /*titre de niveau #5*/
-  color: $senary-color; /*couleur titre*/
-  font-size: 1.5em; /*taille*/
-}
-main.content { /*corps de texte*/
-  text-align: justify; /*texte justifié*/
-  font-size: 1em; /*taille*/
-  font-family: "Arial"; /*police*/
-  letter-spacing: 0px; /*pas d'espace entre les lettres*/
-  list-style: disc inside; /*listes en bullet-points*/
-  color: #343a40;
-}
-h1, h2, h3, h4, h5, h6 {
-  text-align: left;
-  font-family: Times New Roman, serif; /*police des titres*/
-}
+/* Code blocks Colors*/
+$code-block-bg: $codeblock-bg-color; 
+
+/* Callout blocks Colors*/
+$callout-color-note: $primary;
+$callout-color-tip: $tertiary;
+$callout-color-caution: $septenary;
+$callout-color-warning: $senary;
+$callout-color-important: $secondary;

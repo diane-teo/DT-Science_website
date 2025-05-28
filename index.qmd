@@ -1,10 +1,9 @@
 ---
-title: "Diane & Teo Science"
-subtitle: "Les données pour mieux comprendre le monde"
 # `profile.jpg` photo by Jan Tinneberg on https://unsplash.com
-image: Diane & Teo.png
+image: logo_complet_clair.png
 about: # https://quarto.org/docs/websites/website-about.html
   template: jolla
+  image-width: 35em
   image-shape: rectangle
   links:
     - icon: github

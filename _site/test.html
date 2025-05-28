@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="author" content="Diane &amp; Teo">
-<meta name="dcterms.date" content="2025-05-27">
+<meta name="dcterms.date" content="2025-05-28">
 
 <title>test – Diane &amp; Teo Science</title>
 <style>
@@ -74,7 +74,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-2f5df379a58b258e96c21c0638c20c03.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-29bfcaa8254f33b801cc2c0c33f12657.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-36b888f6420d5a45454b01163931dcfa.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -128,7 +128,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   <span class="navbar-toggler-icon"></span>
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
-            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
     <a class="nav-link" href="./index.html"> 
 <span class="menu-text">Home</span></a>
@@ -153,10 +153,26 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#quarto" id="toc-quarto" class="nav-link active" data-scroll-target="#quarto">Quarto</a></li>
+  <li><a href="#quarto" id="toc-quarto" class="nav-link active" data-scroll-target="#quarto">Quarto</a>
+  <ul class="collapse">
   <li><a href="#running-code" id="toc-running-code" class="nav-link" data-scroll-target="#running-code">Running Code</a>
   <ul class="collapse">
   <li><a href="#running-code-1" id="toc-running-code-1" class="nav-link" data-scroll-target="#running-code-1">Running Code</a></li>
+  <li><a href="#running-code-bis" id="toc-running-code-bis" class="nav-link" data-scroll-target="#running-code-bis">Running Code bis</a></li>
+  </ul></li>
+  <li><a href="#running-code-2" id="toc-running-code-2" class="nav-link" data-scroll-target="#running-code-2">Running Code</a>
+  <ul class="collapse">
+  <li><a href="#blblbk" id="toc-blblbk" class="nav-link" data-scroll-target="#blblbk">blblbk</a></li>
+  <li><a href="#blblbk-1" id="toc-blblbk-1" class="nav-link" data-scroll-target="#blblbk-1">blblbk</a></li>
+  </ul></li>
+  </ul></li>
+  <li><a href="#rstudio" id="toc-rstudio" class="nav-link" data-scroll-target="#rstudio">Rstudio</a>
+  <ul class="collapse">
+  <li><a href="#running-code-3" id="toc-running-code-3" class="nav-link" data-scroll-target="#running-code-3">Running Code</a>
+  <ul class="collapse">
+  <li><a href="#running-code-4" id="toc-running-code-4" class="nav-link" data-scroll-target="#running-code-4">Running Code</a></li>
+  <li><a href="#running-code-bis-1" id="toc-running-code-bis-1" class="nav-link" data-scroll-target="#running-code-bis-1">Running Code bis</a></li>
+  </ul></li>
   </ul></li>
   </ul>
 </nav>
@@ -184,7 +200,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">May 27, 2025</p>
+      <p class="date">May 28, 2025</p>
     </div>
   </div>
   
@@ -196,54 +212,118 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </header>
 
 
-<section id="quarto" class="level2">
-<h2 class="anchored" data-anchor-id="quarto">Quarto</h2>
+<section id="quarto" class="level1">
+<h1>Quarto</h1>
 <p>Quarto enables you to weave together content and executable code into a finished document. To learn more about Quarto see <a href="https://quarto.org" class="uri">https://quarto.org</a>.</p>
-</section>
 <section id="running-code" class="level2">
 <h2 class="anchored" data-anchor-id="running-code">Running Code</h2>
-<p>When you click the <strong>Render</strong> button a document will be generated that includes both content and the output of embedded code. You can embed code like this:</p>
-<div class="cell">
-<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="dv">1</span> <span class="sc">+</span> <span class="dv">1</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<div class="cell-output cell-output-stdout">
-<pre><code>[1] 2</code></pre>
-</div>
-</div>
-<p>You can add options to executable code like this</p>
-<div class="cell">
-<div class="cell-output cell-output-stdout">
-<pre><code>[1] 4</code></pre>
-</div>
-</div>
-<p>The <code>echo: false</code> option disables the printing of code (only output is displayed).</p>
 <section id="running-code-1" class="level3">
 <h3 class="anchored" data-anchor-id="running-code-1">Running Code</h3>
 <p>When you click the <strong>Render</strong> button a document will be generated that includes both content and the output of embedded code. You can embed code like this:</p>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb4"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="dv">1</span> <span class="sc">+</span> <span class="dv">1</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<div class="cell-output cell-output-stdout">
-<pre><code>[1] 2</code></pre>
+<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a>radius <span class="ot">&lt;-</span> <span class="dv">5</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
-</div>
-<section id="running-code-2" class="level4">
-<h4 class="anchored" data-anchor-id="running-code-2">Running Code</h4>
+<section id="bblabla" class="level4">
+<h4 class="anchored" data-anchor-id="bblabla">bblabla</h4>
 <p>When you click the <strong>Render</strong> button a document will be generated that includes both content and the output of embedded code. You can embed code like this:</p>
-<div class="cell">
-<div class="sourceCode cell-code" id="cb6"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a><span class="dv">1</span> <span class="sc">+</span> <span class="dv">1</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<div class="cell-output cell-output-stdout">
-<pre><code>[1] 2</code></pre>
+</section>
+</section>
+<section id="running-code-bis" class="level3">
+<h3 class="anchored" data-anchor-id="running-code-bis">Running Code bis</h3>
+<p>When you click the <strong>Render</strong> button a document will be generated that 5 includes both content and the output of embedded code. You can embed code like this:</p>
+</section>
+</section>
+<section id="running-code-2" class="level2">
+<h2 class="anchored" data-anchor-id="running-code-2">Running Code</h2>
+<section id="blblbk" class="level3">
+<h3 class="anchored" data-anchor-id="blblbk">blblbk</h3>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
 </div>
+<div class="callout-title-container flex-fill">
+Note
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Note that there are five types of callouts, including: <code>note</code>, <code>warning</code>, <code>important</code>, <code>tip</code>, and <code>caution</code>.</p>
+</div>
+</div>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+conseil
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>This is an example of a callout with a title.</p>
+</div>
+</div>
+<div class="callout callout-style-default callout-caution callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+prudence
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>This is an example of a callout with a title.</p>
+</div>
+</div>
+<div class="callout callout-style-default callout-warning callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+avertissement
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>This is an example of a callout with a title.</p>
+</div>
+</div>
+<div class="callout callout-style-default callout-important callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+important
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>This is an example of a callout with a title.</p>
+</div>
+</div>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb2"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a>radius <span class="ot">&lt;-</span> <span class="dv">5</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 </section>
-<section id="running-code-3" class="level4">
-<h4 class="anchored" data-anchor-id="running-code-3">Running Code</h4>
+<section id="blblbk-1" class="level3">
+<h3 class="anchored" data-anchor-id="blblbk-1">blblbk</h3>
+<p>When you click the <strong>Render</strong> button a document will be generated that 5 includes both content and the output of embedded code. You can embed code like this:</p>
+</section>
+</section>
+</section>
+<section id="rstudio" class="level1">
+<h1>Rstudio</h1>
+<p>Quarto enables you to weave together content and executable code into a finished document. To learn more about Quarto see <a href="https://quarto.org" class="uri">https://quarto.org</a>.</p>
+<section id="running-code-3" class="level2">
+<h2 class="anchored" data-anchor-id="running-code-3">Running Code</h2>
+<section id="running-code-4" class="level3">
+<h3 class="anchored" data-anchor-id="running-code-4">Running Code</h3>
 <p>When you click the <strong>Render</strong> button a document will be generated that includes both content and the output of embedded code. You can embed code like this:</p>
-<div class="cell">
-<div class="sourceCode cell-code" id="cb8"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a><span class="dv">1</span> <span class="sc">+</span> <span class="dv">1</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<div class="cell-output cell-output-stdout">
-<pre><code>[1] 2</code></pre>
-</div>
-</div>
+</section>
+<section id="running-code-bis-1" class="level3">
+<h3 class="anchored" data-anchor-id="running-code-bis-1">Running Code bis</h3>
+<p>When you click the <strong>Render</strong> button a document will be generated that 5 includes both content and the output of embedded code. You can embed code like this:</p>
 
 
 </section>
