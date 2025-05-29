@@ -1,23 +1,51 @@
 ---
-title: "test"
+title: "Les pingouins ont-ils froid ?"
 subtitle: "Un exemple de document Quarto"
 author: "Diane & Teo"
 date: today
 toc: true
+code-annotations: hover
 ---
 
 # Quarto
 
-Quarto enables you to weave together content and executable code into a finished document. To learn more about Quarto see <https://quarto.org>.
+  links:
+    - icon: github
+      text: Github Teo
+      href: https://github.com/teodoromouniertebas
+    - icon: linkedin
+      text: Linkedin Teo
+      href: https://www.linkedin.com/in/teodoro-mounier-tebas-a423341a3/
+    - icon: github
+      text: Github Diane
+      href: https://github.com/dianethy
+    - icon: linkedin
+      text: Linkedin Diane
+      href: https://www.linkedin.com/in/diane-thierry-b22099193/
+
 
 
 ## Running Code
 
-### Running Code
-When you click the **Render** button a document will be generated that includes both content and the output of embedded code. You can embed code like this:
+{{< lipsum 1 >}}
+
+### mon titre 3
+
+{{< lipsum 1 >}}
+
+#### header 4
+
+{{< lipsum 1 >}}
+
+
+
+> When you click the **Render** button a document will be generated that includes both content and the output of embedded code. You can embed code like this. When you click the **Render** button a document will be generated that includes both content and the output of embedded code. 
+
+{{< lipsum 1 >}}
 
 ```{r}
 radius <- 5
+#ceci est un commentaire
 ```
 
 #### bblabla 
@@ -76,7 +104,20 @@ When you click the **Render** button a document will be generated that `{r} radi
 
 # Rstudio
 
-Quarto enables you to weave together content and executable code into a finished document. To learn more about Quarto see <https://quarto.org>.
+```{r}
+#| message: false
+#| warning: false
+#| eval: false
+library(tidyverse)
+library(palmerpenguins)
+penguins |>                                      # <1>
+  mutate(                                        # <2>
+    bill_ratio = bill_depth_mm / bill_length_mm, # <2>
+    bill_area  = bill_depth_mm * bill_length_mm  # <2>
+  )                                              # <2>
+```
+1. Take `penguins`, and then,
+2. add new columns for the bill ratio and bill area.
 
 
 ## Running Code

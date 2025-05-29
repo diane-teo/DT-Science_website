@@ -4,15 +4,31 @@ project:
 website:
   title: "Diane & Teo Science"
   open-graph: true # https://quarto.org/docs/websites/website-tools.html#open-graph
-  page-footer: "Site réalisé avec [Quarto](https://quarto.org/)"
+  back-to-top-navigation: true
+  favicon: files/logo.png
+  page-footer:
+    center: |
+      *Site réalisé avec [Quarto](https://quarto.org/)*
+    border: false
   navbar:
-    logo: Diane & Teo.png
+    title: false
+    logo: files/logo.png
     left:
-      - text: Home
+      - icon: bi-house
+        text: Accueil
         href: index.qmd
-      - text: test
+      - icon: bi-clipboard-data
+        text: Analyses
         href: test.qmd
+      - icon: bi-easel
+        text: Cours
+    right:
+      - icon: github
+        href: https://github.com/teodoromouniertebas
+      - icon: linkedin
+        href: https://www.linkedin.com/in/teodoro-mounier-tebas-a423341a3
       
+lang: fr
 format:
   html:
-    theme: [Cosmo, styles.scss]
+    theme: [cosmo, styles.scss]

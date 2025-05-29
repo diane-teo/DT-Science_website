@@ -1,5 +1,5 @@
 /*-- scss:defaults --*/
-
+@import url('https://fonts.googleapis.com/css?family=Noto+Serif|Alegreya|Amiko|Noto+Sans|Fira+Code');
 
 /* Basic Colors */
 $primary: #0a2654; 
@@ -8,10 +8,12 @@ $tertiary: #5b6c3e;
 $quaternary: #536787; 
 $quinary: #b15741;
 $senary:#ffcb4d;  
-$septenary: #cf5d00;
+$septenary: #e96800;
 $text-color: #343a40;
 $navbar-bg-color: #e9e9ea;
 $codeblock-bg-color:#f3f3f4;
+$code-anotation-color: #EBECF1;
+$code-annotation-bg: #bec1d2;
 
 
 /* Links Colors*/
@@ -25,20 +27,29 @@ a:link {
 a:visited {
   text-decoration: none;
 }
-a:hover {
+/*a:hover {
   text-decoration: underline;
 }
 a:active {
   text-decoration: underline;
-}
+}*/
 
 /* Copy button Colors*/
 $btn-code-copy-color: $quinary; 
 $btn-code-copy-color-active: $secondary; 
 
-/* Navbar Colors*/
+/* Navbar*/
 $navbar-bg: $navbar-bg-color;
 $navbar-fg: $text-color;
+
+.navbar {
+  border-bottom: .5px solid #c8ced5;
+}
+
+.navbar-brand > img {
+  max-height: 55px;
+}
+
 
 /* Code blocks Colors*/
 $code-block-bg: $codeblock-bg-color; 
@@ -49,3 +60,65 @@ $callout-color-tip: $tertiary;
 $callout-color-caution: $septenary;
 $callout-color-warning: $senary;
 $callout-color-important: $secondary;
+
+/* Code Annotations Colors*/
+$code-annotation-higlight-color: $code-annotation-bg;
+$code-annotation-higlight-bg: $code-anotation-color;
+
+
+/* Animation vidéo home*/
+.hero-animation video {
+  width: 480px;
+  margin-top: -70px;
+}
+
+/*Headers*/
+h1, h2, h3, h4, h5, h6 {
+  text-align: left;
+  /*font-family: Amiko; /*police des titres*/
+}
+h1.title { /*titre général du document*/
+  border-bottom: none !important;
+}
+main h1 { /*titre de niveau #1*/
+  color: $primary; /*couleur titre*/
+  font-weight: bold; /*gras*/
+  border-bottom: 1px solid #c8ced5;
+  padding-bottom: 10px;
+}
+main h2 { /*titre de niveau #2*/
+  color: $secondary; /*couleur titre*/
+  font-weight: bold; /*gras*/
+  border-bottom: none !important;
+}
+main h3 { /*titre de niveau #3*/
+  color: $quaternary; /*couleur titre*/
+  font-weight: bold; /*gras*/
+}
+main h4 { /*titre de niveau #4*/
+  color: $quinary; /*couleur titre*/
+  font-weight: bold; /*gras*/
+}
+main h5 { /*titre de niveau #5*/
+  color: $tertiary; /*couleur titre*/
+}
+
+/*Style texte*/
+$font-family-sans-serif: Noto Sans;
+
+/*Style code*/
+$font-family-monospace: Fira Code;
+
+/*Style corps de texte*/
+main.content { /*corps de texte*/
+  text-align: justify; /*texte justifié*/
+  font-size: .9em; /*taille*/
+}
+
+/*Blockquotes pour citations */
+.blockquote {
+  border-left: 5px solid $quaternary; /* Bordure verticale à gauche */
+  font-weight: bold;
+  color: $quaternary !important;
+  
+}

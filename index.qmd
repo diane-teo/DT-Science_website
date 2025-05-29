@@ -1,23 +1,9 @@
 ---
 # `profile.jpg` photo by Jan Tinneberg on https://unsplash.com
-image: logo_complet_clair.png
 about: # https://quarto.org/docs/websites/website-about.html
   template: jolla
-  image-width: 35em
-  image-shape: rectangle
-  links:
-    - icon: github
-      text: Github Teo
-      href: https://github.com/teodoromouniertebas
-    - icon: linkedin
-      text: Linkedin Teo
-      href: https://www.linkedin.com/in/teodoro-mounier-tebas-a423341a3/
-    - icon: github
-      text: Github Diane
-      href: https://github.com/dianethy
-    - icon: linkedin
-      text: Linkedin Diane
-      href: https://www.linkedin.com/in/diane-thierry-b22099193/
+resources: 
+  - files/video_logo.mp4
 ---
 
 ```{=html}
@@ -30,9 +16,59 @@ about: # https://quarto.org/docs/websites/website-about.html
 </style>
 ```
 
+::: {.hero-animation}
+```{=html}
+<video autoplay muted playsinline>
+<source src="files/video_logo.mp4" type="video/mp4"/>
+</video>
+```
+:::
+
 ::: justify
 Nous sommes un couple de data scientists passionnés qui s'est rencontré à l'université lors de nos études d'économie. Après avoir approfondi nos connaissances avec un master en **économétrie et statistiques appliquées** ([Master ECAP](https://sites.google.com/view/master-ecap/accueil)), nous évoluons aujourd'hui chacun dans des entreprises différentes.
 
 
 Ce site web rassemble et présente nos projets personnels en data science, motivés par notre passion et expertise pour l'analyse de données. Notre approche se veut ouverte en rendant accessibles nos méthodes, nos codes et nos réflexions.
+:::
+
+<br>
+
+---
+
+::: {#hero-banner .column-screen}
+::: {.grid .column-page}
+::: {.headline .g-col-lg-6 .g-col-12 .g-col-md-12}
+::: h1
+Gallery
+:::
+
+Quarto can produce a wide variety of output formats. Here are some examples:
+
+-   [Articles & Reports](#articles-reports)
+-   [Presentations](#presentations)
+-   [Dashboards](#dashboards)
+-   [Websites](#websites)
+-   [Books](#books)
+-   [Interactive Docs](#interactive-docs)
+:::
+
+```{r}
+#| warning: false
+#| echo: false
+#| classes: .g-col-lg-6 .g-col-12 .g-col-md-12
+source("carousel.R")
+carousel("gallery-carousel", 5000, 
+         yaml.load_file("carousel.yml"))
+```
+:::
+:::
+
+___
+
+<br>
+
+::: {layout="[[40,-1,40]]"}
+[![Teodoro](files/teo_rond.png){width=60%}](https://quarto.org/docs/websites/)
+
+[![Diane](files/diane_rond.png){width=60%}](https://quarto.org/docs/websites/)
 :::
