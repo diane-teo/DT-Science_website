@@ -1,7 +1,11 @@
 ---
 # `profile.jpg` photo by Jan Tinneberg on https://unsplash.com
-about: # https://quarto.org/docs/websites/website-about.html
-  template: jolla
+format:
+  html:
+    toc: false
+search: false
+execute:
+  echo: false
 resources: 
   - files/video_logo.mp4
 ---
@@ -32,14 +36,15 @@ Ce site web rassemble et présente nos projets personnels en data science, motiv
 :::
 
 <br>
+<br>
+<br>
 
----
 
 ::: {#hero-banner .column-screen}
 ::: {.grid .column-page}
 ::: {.headline .g-col-lg-6 .g-col-12 .g-col-md-12}
-::: h1
-Gallery
+::: {#h1-sans-ligne}
+Contenu de ce site
 :::
 
 Quarto can produce a wide variety of output formats. Here are some examples:
@@ -50,12 +55,15 @@ Quarto can produce a wide variety of output formats. Here are some examples:
 -   [Websites](#websites)
 -   [Books](#books)
 -   [Interactive Docs](#interactive-docs)
+
+<br>
+<br>
+
 :::
 
 ```{r}
+#| classes: '.g-col-lg-6 .g-col-12 .g-col-md-12'
 #| warning: false
-#| echo: false
-#| classes: .g-col-lg-6 .g-col-12 .g-col-md-12
 source("carousel.R")
 carousel("gallery-carousel", 5000, 
          yaml.load_file("carousel.yml"))
@@ -63,12 +71,101 @@ carousel("gallery-carousel", 5000,
 :::
 :::
 
-___
+::: {#gallery .column-page}
+:::
+
+```{=html}
+<style>
+
+/* we need to hide this element */
+/* <header id="title-block-header" class="quarto-title-block"></header> */
+
+header#title-block-header {
+  display: none;
+}
+
+body.quarto-light #hero-banner {
+  background-color: #f6f6f6;
+}
+
+body.quarto-dark #hero-banner {
+  background-color: #17212B;
+}
+
+div.carousel {
+  margin-top: 2rem; 
+}
+
+body.quarto-dark .carousel-dark .carousel-indicators [data-bs-target] {
+  background-color: rgb(255,255,255);
+}
+
+body.quarto-dark .carousel-dark .carousel-control-next-icon,
+body.quarto-dark .carousel-dark .carousel-control-prev-icon {
+  filter: inherit;
+}
+
+#quarto-content main { 
+  margin-top: 0;
+  padding-top: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.headline {
+  font-size: 1.25em;
+  font-weight: 300;
+  padding-bottom: 1em;
+}
+
+.headline p {
+  margin: 0;
+  padding-bottom: 0.2rem;
+}
+
+.headline a {
+  text-decoration: none;
+}
+
+.headline ul li {
+  margin-bottom: 0.3em;
+}
+
+.carousel.card {
+  padding-top: 2em;
+}
+
+.carousel img {
+  width: 70%;
+  margin-bottom: 110px;
+}
+
+.carousel-control-prev-icon, .carousel-control-next-icon {
+  margin-bottom: 110px;
+}
+
+.carousel-caption {
+  padding-top: 1em;
+}
+
+.touch {
+  
+}
+
+
+</style>
+```
+
 
 <br>
+<br>
+<br>
+<br>
 
-::: {layout="[[40,-1,40]]"}
-[![Teodoro](files/teo_rond.png){width=60%}](https://quarto.org/docs/websites/)
+::: {#center-text-images layout="[[40,-1,40]]"}
+[![Teodoro](files/teo_rond.png){width=70%}](https://quarto.org/docs/websites/)
 
-[![Diane](files/diane_rond.png){width=60%}](https://quarto.org/docs/websites/)
+[![Diane](files/diane_rond.png){width=70%}](https://quarto.org/docs/websites/)
 :::

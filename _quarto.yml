@@ -5,14 +5,14 @@ website:
   title: "Diane & Teo Science"
   open-graph: true # https://quarto.org/docs/websites/website-tools.html#open-graph
   back-to-top-navigation: true
-  favicon: files/logo.png
+  favicon: files/logo_loupe.png
   page-footer:
     center: |
       *Site réalisé avec [Quarto](https://quarto.org/)*
     border: false
   navbar:
     title: false
-    logo: files/logo.png
+    logo: files/logo_loupe.png
     left:
       - icon: bi-house
         text: Accueil
