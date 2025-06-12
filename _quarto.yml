@@ -5,7 +5,7 @@ website:
   title: "Diane & Teo Science"
   open-graph: true # https://quarto.org/docs/websites/website-tools.html#open-graph
   back-to-top-navigation: true
-  favicon: files/logo_loupe.png
+  favicon: files/loupe_rounded.png
   page-footer:
     center: |
       *Site réalisé avec [Quarto](https://quarto.org/)*
@@ -16,7 +16,7 @@ website:
     left:
       - icon: bi-house
         text: Accueil
-        href: index.qmd
+        href: page_accueil/index.qmd
       - icon: bi-clipboard-data
         text: Analyses
         href: test.qmd
@@ -24,7 +24,7 @@ website:
         text: Cours
     right:
       - icon: github
-        href: https://github.com/teodoromouniertebas
+        href: https://github.com/diane-teo
       - icon: linkedin
         href: https://www.linkedin.com/in/teodoro-mounier-tebas-a423341a3
       
