@@ -4,7 +4,7 @@ format:
     page-layout: full
 about:
   template: trestles
-  image: ../files/diane_rond.png
+  image: files/diane_rond.png
   links:
     - icon: linkedin
       text: linkedin

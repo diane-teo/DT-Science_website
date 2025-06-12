@@ -20,7 +20,7 @@ execute:
 ::: {.hero-animation}
 ```{=html}
 <video autoplay muted playsinline>
-<source src="../files/video_logo.mp4" type="video/mp4"/>
+<source src="files/video_logo.mp4" type="video/mp4"/>
 </video>
 ```
 :::
@@ -162,7 +162,7 @@ html {
 <br>
 
 ::: {#center-text-images layout="[[40,-1,40]]"}
-[![Teodoro](../files/teo_rond.png){width=70%}](../page_accueil/Teo.qmd)
+[![Teodoro](files/teo_rond.png){width=70%}](Teo.qmd)
 
-[![Diane](../files/diane_rond.png){width=70%}](../page_accueil/Diane.qmd)
+[![Diane](files/diane_rond.png){width=70%}](Diane.qmd)
 :::

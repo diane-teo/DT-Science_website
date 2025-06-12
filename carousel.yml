@@ -1,21 +1,21 @@
 
 - caption: "Articles and reports with Python and R"
-  image: "../files/logo_loupe.png"
+  image: "files/logo_loupe.png"
   link: "#articles-reports"
   
 - caption: "Create data-driven presentations"
-  image: "../files/logo_loupe.png"
+  image: "files/logo_loupe.png"
   link: "#presentations"
   
 - caption: "Engage readers with interactivity"
-  image: "../files/logo_loupe.png"
+  image: "files/logo_loupe.png"
   link: "#interactive-docs"
 
 - caption: "Publish collections of articles as a website"
-  image: "../files/logo_loupe.png"
+  image: "files/logo_loupe.png"
   link: "#websites"
 
 - caption: "Create multi-format books"
-  image: "../files/logo_loupe.png"
+  image: "files/logo_loupe.png"
   link: "#books"
   

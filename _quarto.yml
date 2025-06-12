@@ -16,7 +16,7 @@ website:
     left:
       - icon: bi-house
         text: Accueil
-        href: page_accueil/index.qmd
+        href: index.qmd
       - icon: bi-clipboard-data
         text: Analyses
         href: test.qmd
