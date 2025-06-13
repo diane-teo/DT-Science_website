@@ -61,9 +61,9 @@ Quarto can produce a wide variety of output formats. Here are some examples:
 ```{r}
 #| classes: '.g-col-lg-6 .g-col-12 .g-col-md-12'
 #| warning: false
-source("carousel.R")
+source("page_accueil/carousel.R")
 carousel("gallery-carousel", 5000, 
-         yaml.load_file("carousel.yml"))
+         yaml.load_file("page_accueil/carousel.yml"))
 ```
 :::
 :::
@@ -162,7 +162,7 @@ html {
 <br>
 
 ::: {#center-text-images layout="[[40,-1,40]]"}
-[![Teodoro](files/teo_rond.png){width=70%}](Teo.qmd)
+[![Teodoro](../files/teo_rond.png){width=70%}](page_accueil/Teo.qmd)
 
-[![Diane](files/diane_rond.png){width=70%}](Diane.qmd)
+[![Diane](../files/diane_rond.png){width=70%}](page_accueil/Diane.qmd)
 :::

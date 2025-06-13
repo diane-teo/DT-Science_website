@@ -1,0 +1,47 @@
+---
+format: 
+  html:
+    page-layout: full
+about:
+  template: trestles
+  image: ../files/diane_rond.png
+  links:
+    - icon: linkedin
+      text: linkedin
+      href: https://www.linkedin.com/in/diane-thierry-b22099193/
+    - icon: github
+      text: Github
+      href: https://github.com/dianethy
+---
+
+Je m'appelle **Diane Thierry**. Je suis data analyst chez *Datactivist* depuis septembre 2021. J’aime donner du sens aux données en mettant en lumière les informations qu’elles contiennent et en les rendant compréhensibles pour tout un chacun. La diversité des analyses et des problématiques me motive à explorer de nouveaux domaines d’application et à renforcer mes compétences techniques. R est mon langage de prédilection, que j’utilise majoritairement dans mes projets. En dehors du travail, j'aime les randonnées, le sport (karaté, gymnastique artistique et course à pied), la musique (chant, flûte traversière et violon) et le bricolage.
+
+## Education
+
+**Université de Nantes** \| Nantes, France \| *Master en Économétrie et Statistiques, parcours Économétrie Appliquée* \| 2019 – 2021
+
+**Université de Valence** \| Valence, Espagne \| *Licence 3 en erasmus* \| 2018 - 2019
+
+**Université de Nantes** \| Nantes, France \| *Licence en Analyse Économique* \| 2015 – 2019
+
+## Experience
+
+**Datactivist** \| Marseille, France \| *Data analyst* \| Oct. 2021 – Présent
+
+**Datactivist** \| Marseille, France \| *Stagiaire* \| Mars. 2021 – Juill. 2021
+
+
+## Compétences techniques
+
+**Langages & outils** \| R, Excel, Python, SQL
+
+**Traitement de la donnée** \| écosystème tidyverse (dplyr, purrr, lubridate, stringr), R base
+
+**Data Visualisation** \| ggplot2, plotly, leaflet
+
+**Modélisations** \| régressions, séries temporelles, classifications, tidymodels
+
+**Rendus** \| RMarkdown, Quarto, Flexdashboard, Shiny
+
+
+
