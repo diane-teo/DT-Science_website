@@ -73,7 +73,7 @@ ul.task-list li input[type="checkbox"] {
 
 <meta property="og:title" content="Second Post – Diane &amp; Teo Science">
 <meta property="og:description" content="Post description for second post">
-<meta property="og:image" content="cover.jpg">
+<meta property="og:image" content="https://diane-teo.quarto.pub/diane-teo-science/blog/second-post/cover.jpg">
 <meta property="og:site_name" content="Diane &amp; Teo Science">
 </head>
 
@@ -275,7 +275,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   }
     var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
     var mailtoRegex = new RegExp(/^mailto:/);
-      var filterRegex = new RegExp('/' + window.location.host + '/');
+      var filterRegex = new RegExp("https:\/\/diane-teo\.quarto\.pub\/diane-teo-science");
     var isInternal = (href) => {
         return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
     }
