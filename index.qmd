@@ -42,7 +42,7 @@ Ce site web rassemble et présente nos projets personnels en data science, motiv
 ::: {.headline .g-col-lg-6 .g-col-12 .g-col-md-12}
 ::: {#h1-sans-ligne}
 
-Contenu de ce site
+Contenu de ce site 
 :::
 <br>
 
