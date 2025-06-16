@@ -47,7 +47,7 @@ Contenu de ce site
 <br>
 
 
--   [Analyses](#analyses)
+-   [Analyses](analyses/index.qmd)
 -   [Formations](#formations)
 -   [Ressources](#ressources)
 -   [Autres](#autres)

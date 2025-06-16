@@ -1,7 +1,7 @@
 
 - caption: "Analyses"
   image: "/files/analyses.png"
-  link: "#analyses"
+  link: "./analyses/index.html"
   
 - caption: "Formations"
   image: "/files/formations.png"
