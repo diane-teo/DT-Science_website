@@ -1,11 +1,14 @@
 ---
 title: Analyses
 listing:
-  contents: analyses.yml
+  contents: 
+  - analyses.yml
+  - "test.qmd"
   type: grid
   max-description-length: 250
   sort: title
   sort-ui: [title, categories]
   filter-ui: [title, date, categories, description]
+  fields: [image, title, categories, description, date, author, reading-time]
   categories: numbered
 ---

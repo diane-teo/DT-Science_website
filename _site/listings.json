@@ -1,6 +1,8 @@
 [
   {
     "listing": "/analyses/index.html",
-    "items": []
+    "items": [
+      "/analyses/test.html"
+    ]
   }
 ]

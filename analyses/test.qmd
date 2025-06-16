@@ -2,12 +2,20 @@
 title: "Les pingouins ont-ils froid ?"
 subtitle: "Un exemple de document Quarto"
 author: "Diane & Teo"
-date: today
+image: images/pinguin.jpg
+description: "Vestibulum ultrices, tortor at mattis porta, odio nisi rutrum nulla, sit amet tincidunt eros quam facilisis tellus. Fusce eleifend lectus in elementum lacinia. Nam auctor nunc in massa ullamcorper, sit amet auctor ante accumsan. Nam ut varius metus. Curabitur eget tristique leo. Cras finibus euismod erat eget elementum. Integer vel placerat ex. Ut id eros quis lectus lacinia venenatis hendrerit vel ante."
 categories: [R, Quarto, Rmarkdown]
+date: today
 toc: true
 toc-location: left
 code-annotations: hover
+reference-location: margin
+citation-location: margin
 ---
+
+::: {.column-margin}
+![](images/pinguin.jpg)
+:::
 
 # Quarto
 
@@ -57,7 +65,11 @@ When you click the **Render** button a document will be generated that includes 
 ### Running Code bis
 When you click the **Render** button a document will be generated that `{r} radius` includes both content and the output of embedded code. You can embed code like this:
 
+::: {.column-margin}
+We know from *the first fundamental theorem of calculus* that for $x$ in $[a, b]$:
 
+$$\frac{d}{dx}\left( \int_{a}^{x} f(u)\,du\right)=f(x).$$
+:::
 
 ## Running Code
 
