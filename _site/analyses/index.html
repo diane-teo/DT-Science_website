@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="fr" xml:lang="fr"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.6.42">
+<meta name="generator" content="quarto-1.6.36">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -38,10 +38,10 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-75f85ff3afe47a507ba5bdac098e00a3.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-d0e5e52fc6359112edbf3189612b0d16.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-779668cc3d72d7255d1ada5a3d7cfdcf.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-4a8795cb12cab0a532787e8160a3890d.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -79,9 +79,9 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-title','listing-image','listing-description','listing-categories','listing-date',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      valueNames: ['listing-title','listing-image','listing-description','listing-categories','listing-date',{ data: ['index'] },{ data: ['categories'] }],
       
-      searchColumns: ["listing-title","listing-image","listing-description","listing-categories","listing-date"],
+      searchColumns: ["listing-title","listing-date","listing-categories","listing-description"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -130,11 +130,11 @@ window.Quarto = {
 </script>
 
 <meta property="og:title" content="Analyses – Diane &amp; Teo Science">
-<meta property="og:image" content="../analyses/images/gam.png">
+<meta property="og:image" content="../analyses/images/bebe.png">
 <meta property="og:site_name" content="Diane &amp; Teo Science">
 </head>
 
-<body class="nav-fixed fullcontent">
+<body class="nav-fixed">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -157,15 +157,29 @@ window.Quarto = {
 <span class="menu-text">Accueil</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="../analyses/index.html" aria-current="page"> <i class="bi bi-clipboard-data" role="img">
+    <a class="nav-link active" href="../analyses/index.html" aria-current="page"> <i class="bi bi-bar-chart" role="img">
 </i> 
 <span class="menu-text">Analyses</span></a>
   </li>  
   <li class="nav-item">
     <span class="nav-link">
-    <i class="bi bi-easel" role="img">
+    <i class="bi bi-book" role="img">
 </i> 
-<span class="menu-text">Cours</span>
+<span class="menu-text">Formations</span>
+    </span>
+  </li>  
+  <li class="nav-item">
+    <span class="nav-link">
+    <i class="bi bi-list-ul" role="img">
+</i> 
+<span class="menu-text">Ressources</span>
+    </span>
+  </li>  
+  <li class="nav-item">
+    <span class="nav-link">
+    <i class="bi bi-basket3" role="img">
+</i> 
+<span class="menu-text">Autres</span>
     </span>
   </li>  
 </ul>
@@ -191,7 +205,9 @@ window.Quarto = {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        
+    <h5 class="quarto-listing-category-title">Catégories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">Tous <span class="quarto-category-count">(5)</span></div><div class="category" data-category="QmlnJTIwRGF0YQ==">Big Data <span class="quarto-category-count">(1)</span></div><div class="category" data-category="RWNvbm9tJUMzJUE5dHJpZQ==">Econométrie <span class="quarto-category-count">(5)</span></div><div class="category" data-category="RmluYW5jZXM=">Finances <span class="quarto-category-count">(1)</span></div><div class="category" data-category="R0FN">GAM <span class="quarto-category-count">(1)</span></div><div class="category" data-category="UHl0aG9u">Python <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Ug==">R <span class="quarto-category-count">(4)</span></div><div class="category" data-category="Um1hcmtkb3du">Rmarkdown <span class="quarto-category-count">(2)</span></div><div class="category" data-category="U2NvcmluZw==">Scoring <span class="quarto-category-count">(1)</span></div><div class="category" data-category="U29jaW9sb2dpZQ==">Sociologie <span class="quarto-category-count">(1)</span></div><div class="category" data-category="ZGlhcG9zaXRpdmVz">diapositives <span class="quarto-category-count">(1)</span></div><div class="category" data-category="cGRm">pdf <span class="quarto-category-count">(2)</span></div></div></div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
@@ -219,16 +235,107 @@ window.Quarto = {
 
 
 <div class="quarto-listing quarto-listing-container-grid" id="listing-listing">
+<div class="listing-actions-group">
+   <div class="input-group input-group-sm quarto-listing-sort">
+     <span class="input-group-text"><i class="bi bi-sort-down"></i></span>
+     <select id="listing-listing-sort" class="form-select" aria-label="Trier par" onchange="window['quarto-listings']['listing-listing'].sort(this.options[this.selectedIndex].value, { order: this.options[this.selectedIndex].getAttribute('data-direction')})">
+       <option value="" disabled="" selected="" hidden="">Trier par</option>
+       <option value="index" data-direction="asc">Ordre par défaut</option>
+         <option value="listing-title" data-direction="asc">
+          Titre
+        </option>
+         <option value="listing-categories" data-direction="asc">
+          Catégories
+        </option>
+     </select>
+  </div>
+    <div class="input-group input-group-sm quarto-listing-filter">
+      <span class="input-group-text"><i class="bi bi-search"></i></span>
+      <input type="text" class="search form-control" placeholder="Filtre">
+    </div>
+</div>
 <div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0" data-categories="UiUyQ1JtYXJrZG93biUyQ0Vjb25vbSVDMyVBOXRyaWUlMkNtZ2N2" data-listing-date-sort="1606258800000">
-<a href="https://teodoromouniertebas.github.io/Master_Works-/projet%20GAM.html" class="quarto-grid-link">
+<div class="g-col-1" data-index="0" data-categories="UiUyQ3BkZiUyQ0Vjb25vbSVDMyVBOXRyaWUlMkNTb2Npb2xvZ2ll" data-listing-date-sort="1605826800000">
+<a href="hhttps://raw.githubusercontent.com/DianeThy/Travaux_universitaires/main/Travaux%20Master%202/Poids%20des%20be%CC%81be%CC%81s%20a%CC%80%20la%20naissance%2C%20donne%CC%81es%20de%20panel.pdf" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
-<img loading="lazy" src="../analyses/images/gam.png" class="thumbnail-image card-img" style="height: 150px;">
+<img loading="lazy" src="../analyses/images/bebe.png" class="thumbnail-image card-img" style="height: 150px;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
-Generalized Additive Models
+Analyse du poids des bébés à la naissance
+</h5>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('Ug=='); return false;">
+R
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('cGRm'); return false;">
+pdf
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('RWNvbm9tJUMzJUE5dHJpZQ=='); return false;">
+Econométrie
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('U29jaW9sb2dpZQ=='); return false;">
+Sociologie
+</div>
+</div>
+<div class="card-text listing-description">
+<p>Le but de ce projet est d’analyser les facteurs socio-économiques influençant le faible poids à la naissance dans les pays développés, à travers des données de panel allant de 2000 à 2015.</p>
+</div>
+<div class="card-attribution card-text-small end">
+<div class="listing-date">
+20 nov. 2020
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="1" data-categories="UHl0aG9uJTJDZGlhcG9zaXRpdmVzJTJDRWNvbm9tJUMzJUE5dHJpZSUyQ1Njb3Jpbmc=" data-listing-date-sort="1614207600000">
+<a href="https://raw.githubusercontent.com/DianeThy/Travaux_universitaires/main/Travaux%20Master%202/De%CC%81tection%20de%20fraude%20sur%20transactions%20par%20te%CC%81le%CC%81phone.pdf" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="../analyses/images/scoring.png" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Cette transaction financière par téléphone est-elle frauduleuse ?
+</h5>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('UHl0aG9u'); return false;">
+Python
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('ZGlhcG9zaXRpdmVz'); return false;">
+diapositives
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('RWNvbm9tJUMzJUE5dHJpZQ=='); return false;">
+Econométrie
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('U2NvcmluZw=='); return false;">
+Scoring
+</div>
+</div>
+<div class="card-text listing-description">
+<p>Le but de ce projet est d’améliorer le système de détection de fraude dans les paiements par téléphone en Afrique, grâce à l’utilisation de modèles de machine learning en temps réel sur 750.000 transactions bancaires.</p>
+</div>
+<div class="card-attribution card-text-small end">
+<div class="listing-date">
+25 févr. 2021
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="2" data-categories="UiUyQ1JtYXJrZG93biUyQ0Vjb25vbSVDMyVBOXRyaWUlMkNCaWclMjBEYXRh" data-listing-date-sort="1607122800000">
+<a href="https://teodoromouniertebas.github.io/Master_Works-/Projet_BigData.R.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="../analyses/images/bigdata.jpg" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+De quoi dépend le cours du Baltic Dry Index ?
 </h5>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('Ug=='); return false;">
@@ -240,41 +347,8 @@ Rmarkdown
 <div class="listing-category" onclick="window.quartoListingCategory('RWNvbm9tJUMzJUE5dHJpZQ=='); return false;">
 Econométrie
 </div>
-<div class="listing-category" onclick="window.quartoListingCategory('bWdjdg=='); return false;">
-mgcv
-</div>
-</div>
-<div class="card-text listing-description">
-<p>Le but de ce projet est de créer des modèles additifs généralisés qui prédisent au mieux le temps de durée de chaque job sur la plateforme Stitch.</p>
-</div>
-<div class="card-attribution card-text-small end">
-<div class="listing-date">
-25 nov. 2020
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="1" data-categories="UiUyQ0JpZyUyMERhdGElMkNFY29ub20lQzMlQTl0cmll" data-listing-date-sort="1607122800000">
-<a href="https://teodoromouniertebas.github.io/Master_Works-/Projet_BigData.R.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="../analyses/images/bigdata.jpg" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Prévisions du Baltic Dry Index
-</h5>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('Ug=='); return false;">
-R
-</div>
 <div class="listing-category" onclick="window.quartoListingCategory('QmlnJTIwRGF0YQ=='); return false;">
 Big Data
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('RWNvbm9tJUMzJUE5dHJpZQ=='); return false;">
-Econométrie
 </div>
 </div>
 <div class="card-text listing-description">
@@ -289,33 +363,72 @@ Econométrie
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="2" data-categories="UiUyQ0RhdGElMjBWaXN1YWxpemF0aW9uJTJDRW52aXJvbm1lbnRhbCUyMFNjaWVuY2U=" data-listing-date-sort="1719784800000">
-<a href="https://example.com/co2-visualization" class="quarto-grid-link">
+<div class="g-col-1" data-index="3" data-categories="UiUyQ3BkZiUyQ0Vjb25vbSVDMyVBOXRyaWUlMkNGaW5hbmNlcw==" data-listing-date-sort="1607554800000">
+<a href="https://raw.githubusercontent.com/DianeThy/Travaux_universitaires/main/Travaux%20Master%202/Analyse%20de%20l'action%20TESLA.pdf" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
-<img loading="lazy" src="../analyses/images/anne-nygard-vc-vPgGqAr4-unsplash.jpg" class="thumbnail-image card-img" style="height: 150px;">
+<img loading="lazy" src="../analyses/images/tesla.png" class="thumbnail-image card-img" style="height: 150px;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
-Visualizing Global CO2 Emissions
+Le cours financier Tesla est-il à risque ?
 </h5>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('Ug=='); return false;">
 R
 </div>
-<div class="listing-category" onclick="window.quartoListingCategory('RGF0YSUyMFZpc3VhbGl6YXRpb24='); return false;">
-Data Visualization
+<div class="listing-category" onclick="window.quartoListingCategory('cGRm'); return false;">
+pdf
 </div>
-<div class="listing-category" onclick="window.quartoListingCategory('RW52aXJvbm1lbnRhbCUyMFNjaWVuY2U='); return false;">
-Environmental Science
+<div class="listing-category" onclick="window.quartoListingCategory('RWNvbm9tJUMzJUE5dHJpZQ=='); return false;">
+Econométrie
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('RmluYW5jZXM='); return false;">
+Finances
 </div>
 </div>
 <div class="card-text listing-description">
-<p>This project involves creating visualizations to show trends in global CO2 emissions over time. It includes data extraction from public databases, data cleaning, and using visualization libraries to create interactive charts and graphs.</p>
+<p>Le but de ce projet est de modéliser les rentabilités de l’actif financier TESLA entre 2015 et 2018, afin de prévoir sa volatilité sur l’année 2019 à l’aide de différents modèles GARCH, ainsi que sa valeur à risque.</p>
 </div>
 <div class="card-attribution card-text-small end">
 <div class="listing-date">
-1 juil. 2024
+10 déc. 2020
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="4" data-categories="UiUyQ1JtYXJrZG93biUyQ0Vjb25vbSVDMyVBOXRyaWUlMkNHQU0=" data-listing-date-sort="1606258800000">
+<a href="https://teodoromouniertebas.github.io/Master_Works-/projet%20GAM.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="../analyses/images/gam.png" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Quelle est la durée d’exécution des requêtes Stitch ?
+</h5>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('Ug=='); return false;">
+R
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Um1hcmtkb3du'); return false;">
+Rmarkdown
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('RWNvbm9tJUMzJUE5dHJpZQ=='); return false;">
+Econométrie
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('R0FN'); return false;">
+GAM
+</div>
+</div>
+<div class="card-text listing-description">
+<p>Le but de ce projet est de créer des modèles additifs généralisés qui prédisent au mieux le temps de durée de chaque job sur la plateforme Stitch.</p>
+</div>
+<div class="card-attribution card-text-small end">
+<div class="listing-date">
+25 nov. 2020
 </div>
 </div>
 </div>

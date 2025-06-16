@@ -17,11 +17,15 @@ website:
       - icon: bi-house
         text: Accueil
         href: index.qmd
-      - icon: bi-clipboard-data
+      - icon: bi-bar-chart
         text: Analyses
         href: analyses/index.qmd
-      - icon: bi-easel
-        text: Cours
+      - icon: bi-book
+        text: Formations
+      - icon: bi-list-ul
+        text: Ressources
+      - icon: bi-basket3
+        text: Autres
     right:
       - icon: github
         href: https://github.com/diane-teo
@@ -32,3 +36,5 @@ lang: fr
 format:
   html:
     theme: [cosmo, styles.scss]
+    grid:
+      body-width: 1000px

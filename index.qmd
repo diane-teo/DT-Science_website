@@ -38,20 +38,19 @@ Ce site web rassemble et présente nos projets personnels en data science, motiv
 
 
 ::: {#hero-banner .column-screen}
-::: {.grid .column-page}
+::: {.grid .column-body}
 ::: {.headline .g-col-lg-6 .g-col-12 .g-col-md-12}
 ::: {#h1-sans-ligne}
+
 Contenu de ce site
 :::
+<br>
 
-Quarto can produce a wide variety of output formats. Here are some examples:
 
--   [Articles & Reports](#articles-reports)
--   [Presentations](#presentations)
--   [Dashboards](#dashboards)
--   [Websites](#websites)
--   [Books](#books)
--   [Interactive Docs](#interactive-docs)
+-   [Analyses](#analyses)
+-   [Formations](#formations)
+-   [Ressources](#ressources)
+-   [Autres](#autres)
 
 <br>
 <br>
@@ -135,7 +134,7 @@ html {
 }
 
 .carousel img {
-  width: 70%;
+  width: 60%;
   margin-bottom: 110px;
 }
 
@@ -158,6 +157,11 @@ html {
 
 <br>
 <br>
+
+::: {#h1-sans-ligne}
+Qui sommes-nous ?
+:::
+
 <br>
 <br>
 

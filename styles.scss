@@ -11,7 +11,7 @@ $senary:#ffcb4d;
 $septenary: #e96800;
 $text-color: #343a40;
 $navbar-bg-color: #e9e9ea;
-$codeblock-bg-color:#f3f3f4;
+$couleur-fond-code:#f3f3f4;
 $code-anotation-color: #EBECF1;
 $code-annotation-bg: #bec1d2;
 
@@ -52,7 +52,7 @@ $navbar-fg: $text-color;
 
 
 /* Code blocks Colors*/
-$code-block-bg: $codeblock-bg-color; 
+$code-block-bg: $couleur-fond-code; 
 
 /* Callout blocks Colors*/
 $callout-color-note: $primary;
@@ -70,7 +70,7 @@ $code-annotation-higlight-bg: $code-anotation-color;
 .hero-animation {    
   text-align: center;
   video {
-  width: 480px;
+  width: 520px;
   margin-top: 70px;
   display: inline-block;
     
@@ -125,7 +125,7 @@ $font-family-monospace: Fira Code;
 /*Style corps de texte*/
 main.content { /*corps de texte*/
   text-align: justify; /*texte justifié*/
-  font-size: .9em; /*taille*/
+  font-size: 1em; /*taille*/
 }
 
 /*Blockquotes pour citations */

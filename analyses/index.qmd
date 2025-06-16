@@ -4,4 +4,8 @@ listing:
   contents: analyses.yml
   type: grid
   max-description-length: 250
+  sort: title
+  sort-ui: [title, categories]
+  filter-ui: [title, date, categories, description]
+  categories: numbered
 ---
