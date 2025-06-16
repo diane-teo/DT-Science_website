@@ -1,0 +1,26 @@
+- title: Generalized Additive Models
+  path: https://teodoromouniertebas.github.io/Master_Works-/projet%20GAM.html
+  image: ../analyses/images/gam.png
+  description: >
+    Le but de ce projet est de créer des modèles additifs généralisés qui prédisent au mieux le temps de durée de chaque job sur la plateforme Stitch.
+  categories: [R, Rmarkdown, Econométrie, mgcv]
+  date: 2020-11-25
+
+- title: Prévisions du Baltic Dry Index
+  path: https://teodoromouniertebas.github.io/Master_Works-/Projet_BigData.R.html
+  image: ../analyses/images/bigdata.jpg
+  description: >
+    Le but de ce projet est d’expliquer le cours du Baltic Dry Index (BDI) entre février 2007 et décembre 2018, en utilisant des méthodes de sélection de variables pour appliquer une modélisation par les Moindres Carrés Ordinaires (MCO).
+  categories: [R, Big Data, Econométrie]
+  date: 2020-12-05
+
+- title: Visualizing Global CO2 Emissions
+  path: https://example.com/co2-visualization
+  # Photo by Anne Nygård on Unsplash https://unsplash.com/photos/white-clouds-in-blue-sky-vc-vPgGqAr4
+  image: ../analyses/images/anne-nygard-vc-vPgGqAr4-unsplash.jpg
+  description: >
+    This project involves creating visualizations to show trends in global CO2 emissions
+    over time. It includes data extraction from public databases, data cleaning, and using
+    visualization libraries to create interactive charts and graphs.
+  categories: [R, Data Visualization, Environmental Science]
+  date: 2024-07-01

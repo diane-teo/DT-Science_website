@@ -19,7 +19,7 @@ website:
         href: index.qmd
       - icon: bi-clipboard-data
         text: Analyses
-        href: test.qmd
+        href: analyses/index.qmd
       - icon: bi-easel
         text: Cours
     right:

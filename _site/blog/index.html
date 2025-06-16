@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Diane &amp; Teo Science</title>
+<title>Analyses – Diane &amp; Teo Science</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -23,23 +23,25 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<link href="./files/loupe_rounded.png" rel="icon" type="image/png">
-<script src="site_libs/quarto-html/quarto.js"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-75f85ff3afe47a507ba5bdac098e00a3.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-779668cc3d72d7255d1ada5a3d7cfdcf.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<link href="../files/loupe_rounded.png" rel="icon" type="image/png">
+<script src="../site_libs/quarto-listing/list.min.js"></script>
+<script src="../site_libs/quarto-listing/quarto-listing.js"></script>
+<script src="../site_libs/quarto-html/quarto.js"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-75f85ff3afe47a507ba5bdac098e00a3.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-779668cc3d72d7255d1ada5a3d7cfdcf.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -67,11 +69,68 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Recherche"
   }
 }</script>
+<script>
 
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-listing .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
 
-<meta property="og:title" content="Diane &amp; Teo Science">
-<meta property="og:description" content="">
-<meta property="og:image" content="./files/logo_loupe.png">
+    const options = {
+      valueNames: ['listing-title','listing-author','listing-date','listing-image','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      
+      searchColumns: ["listing-title","listing-author","listing-date","listing-image","listing-description"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  </script>
+
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
+
+<meta property="og:title" content="Analyses – Diane &amp; Teo Science">
+<meta property="og:image" content="../blog/first-post/cover.jpg">
 <meta property="og:site_name" content="Diane &amp; Teo Science">
 </head>
 
@@ -82,8 +141,8 @@ ul.task-list li input[type="checkbox"] {
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a href="./index.html" class="navbar-brand navbar-brand-logo">
-    <img src="./files/logo_loupe.png" alt="" class="navbar-logo">
+    <a href="../index.html" class="navbar-brand navbar-brand-logo">
+    <img src="../files/logo_loupe.png" alt="" class="navbar-logo">
     </a>
   </div>
             <div id="quarto-search" class="" title="Recherche"></div>
@@ -93,12 +152,12 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link active" href="./index.html" aria-current="page"> <i class="bi bi-house" role="img">
+    <a class="nav-link" href="../index.html"> <i class="bi bi-house" role="img">
 </i> 
 <span class="menu-text">Accueil</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./analyses/index.html"> <i class="bi bi-clipboard-data" role="img">
+    <a class="nav-link" href="../projects/index"> <i class="bi bi-clipboard-data" role="img">
 </i> 
 <span class="menu-text">Analyses</span></a>
   </li>  
@@ -134,225 +193,111 @@ ul.task-list li input[type="checkbox"] {
 <!-- margin-sidebar -->
     
 <!-- main -->
-<main class="content page-columns page-full" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"></header>
+<main class="content" id="quarto-document-content">
 
-
-
-
-<style>
-
-  .justify {
-    text-align: justify;
-  }
-
-</style>
-<div class="hero-animation">
-<video autoplay="" muted="" playsinline="">
-<source src="files/video_logo.mp4" type="video/mp4">
-</video>
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Analyses</h1>
 </div>
-<div class="justify">
-<p>Nous sommes un couple de data scientists passionnés qui s’est rencontré à l’université lors de nos études d’économie. Après avoir approfondi nos connaissances avec un master en <strong>économétrie et statistiques appliquées</strong> (<a href="https://sites.google.com/view/master-ecap/accueil">Master ECAP</a>), nous évoluons aujourd’hui chacun dans des entreprises différentes.</p>
-<p>Ce site web rassemble et présente nos projets personnels en data science, motivés par notre passion et expertise pour l’analyse de données. Notre approche se veut ouverte en rendant accessibles nos méthodes, nos codes et nos réflexions.</p>
-</div>
-<p><br> <br> <br></p>
-<div id="hero-banner" class="column-screen page-columns page-full">
-<div class="grid column-page">
-<div class="headline g-col-lg-6 g-col-12 g-col-md-12">
-<div id="h1-sans-ligne">
-<p>Contenu de ce site</p>
-</div>
-<p>Quarto can produce a wide variety of output formats. Here are some examples:</p>
-<ul>
-<li><a href="#articles-reports">Articles &amp; Reports</a></li>
-<li><a href="#presentations">Presentations</a></li>
-<li><a href="#dashboards">Dashboards</a></li>
-<li><a href="#websites">Websites</a></li>
-<li><a href="#books">Books</a></li>
-<li><a href="#interactive-docs">Interactive Docs</a></li>
-</ul>
-<p><br> <br></p>
-</div>
-<div class="cell g-col-lg-6 g-col-12 g-col-md-12">
-<div class="cell-output-display">
-<div id="gallery-carousel" class="carousel carousel-dark slide" data-bs-ride="carousel">
-<div class="carousel-indicators">
-<button type="button" data-bs-target="#gallery-carousel" data-bs-slide-to="0" aria-label="Slide 1" class="active" aria-current="true"></button>
-<button type="button" data-bs-target="#gallery-carousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
-<button type="button" data-bs-target="#gallery-carousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
-<button type="button" data-bs-target="#gallery-carousel" data-bs-slide-to="3" aria-label="Slide 4"></button>
-<button type="button" data-bs-target="#gallery-carousel" data-bs-slide-to="4" aria-label="Slide 5"></button>
-</div>
-<div class="carousel-inner">
-<div class="carousel-item active" data-bs-interval="5000">
-<a href="#articles-reports">
-<img src="./files/logo_loupe.png" class="d-block  mx-auto border">
-</a>
-<div class="carousel-caption d-none d-md-block">
-<p class="fw-light">Articles and reports with Python and R</p>
-</div>
-</div>
-<div class="carousel-item" data-bs-interval="5000">
-<a href="#presentations">
-<img src="./files/logo_loupe.png" class="d-block  mx-auto border">
-</a>
-<div class="carousel-caption d-none d-md-block">
-<p class="fw-light">Create data-driven presentations</p>
-</div>
-</div>
-<div class="carousel-item" data-bs-interval="5000">
-<a href="#interactive-docs">
-<img src="./files/logo_loupe.png" class="d-block  mx-auto border">
-</a>
-<div class="carousel-caption d-none d-md-block">
-<p class="fw-light">Engage readers with interactivity</p>
-</div>
-</div>
-<div class="carousel-item" data-bs-interval="5000">
-<a href="#websites">
-<img src="./files/logo_loupe.png" class="d-block  mx-auto border">
-</a>
-<div class="carousel-caption d-none d-md-block">
-<p class="fw-light">Publish collections of articles as a website</p>
-</div>
-</div>
-<div class="carousel-item" data-bs-interval="5000">
-<a href="#books">
-<img src="./files/logo_loupe.png" class="d-block  mx-auto border">
-</a>
-<div class="carousel-caption d-none d-md-block">
-<p class="fw-light">Create multi-format books</p>
-</div>
-</div>
-</div>
-<button class="carousel-control-prev" type="button" data-bs-target="#gallery-carousel" data-bs-slide="prev">
-<span class="carousel-control-prev-icon" aria-hidden="true"></span>
-<span class="visually-hidden">Prevoius</span>
-</button>
-<button class="carousel-control-next" type="button" data-bs-target="#gallery-carousel" data-bs-slide="next">
-<span class="carousel-control-next-icon" aria-hidden="true"></span>
-<span class="visually-hidden">Next</span>
-</button>
-</div>
-</div>
-</div>
-</div>
-</div>
-<div id="gallery" class="column-page">
 
-</div>
-<style>
 
-/* we need to hide this element */
-/* <header id="title-block-header" class="quarto-title-block"></header> */
 
-header#title-block-header {
-  display: none;
-}
+<div class="quarto-title-meta">
 
-body.quarto-light #hero-banner {
-  background-color: #f6f6f6;
-}
-
-body.quarto-dark #hero-banner {
-  background-color: #17212B;
-}
-
-div.carousel {
-  margin-top: 2rem; 
-}
-
-body.quarto-dark .carousel-dark .carousel-indicators [data-bs-target] {
-  background-color: rgb(255,255,255);
-}
-
-body.quarto-dark .carousel-dark .carousel-control-next-icon,
-body.quarto-dark .carousel-dark .carousel-control-prev-icon {
-  filter: inherit;
-}
-
-#quarto-content main { 
-  margin-top: 0;
-  padding-top: 0;
-}
-
-html {
-  scroll-behavior: smooth;
-}
-
-.headline {
-  font-size: 1.25em;
-  font-weight: 300;
-  padding-bottom: 1em;
-}
-
-.headline p {
-  margin: 0;
-  padding-bottom: 0.2rem;
-}
-
-.headline a {
-  text-decoration: none;
-}
-
-.headline ul li {
-  margin-bottom: 0.3em;
-}
-
-.carousel.card {
-  padding-top: 2em;
-}
-
-.carousel img {
-  width: 70%;
-  margin-bottom: 110px;
-}
-
-.carousel-control-prev-icon, .carousel-control-next-icon {
-  margin-bottom: 110px;
-}
-
-.carousel-caption {
-  padding-top: 1em;
-}
-
-.touch {
+    
   
-}
+    
+  </div>
+  
 
 
-</style>
-<p><br> <br> <br> <br></p>
-<div>
-
-</div>
-<div id="center-text-images" class="quarto-layout-panel" data-layout="[[40,-1,40]]">
-<div class="quarto-layout-row">
-<div class="quarto-layout-cell" style="flex-basis: 49.4%;justify-content: flex-start;">
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><a href="./page_accueil/Teo.html"><img src="files/teo_rond.png" class="img-fluid figure-img" style="width:70.0%" alt="Teodoro"></a></p>
-<figcaption>Teodoro</figcaption>
-</figure>
-</div>
-</div>
-<div class="quarto-figure-spacer quarto-layout-cell" style="flex-basis: 1.2%;justify-content: flex-start;">
-<p>&nbsp;</p>
-</div>
-<div class="quarto-layout-cell" style="flex-basis: 49.4%;justify-content: flex-start;">
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><a href="./page_accueil/Diane.html"><img src="files/diane_rond.png" class="img-fluid figure-img" style="width:70.0%" alt="Diane"></a></p>
-<figcaption>Diane</figcaption>
-</figure>
-</div>
-</div>
-</div>
-</div>
+</header>
 
 
 
-<a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Retour au sommet</a></main> <!-- /main -->
+
+
+
+<div class="quarto-listing quarto-listing-container-grid" id="listing-listing">
+<div class="list grid quarto-listing-cols-3">
+<div class="g-col-1" data-index="0" data-categories="U2NpZW5jZSUyQ1RlY2hub2xvZ3k=" data-listing-date-sort="1621634400000" data-listing-file-modified-sort="1750060957059" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="260">
+<a href="../blog/first-post/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="../blog/first-post/cover.jpg" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+First Post
+</h5>
+<div class="card-text listing-description">
+Post description for first post
+</div>
+<div class="card-attribution card-text-small justify">
+<div class="listing-author">
+Alicia
+</div>
+<div class="listing-date">
+22 mai 2021
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="1" data-categories="U2NpZW5jZSUyQ0RhdGE=" data-listing-date-sort="1621720800000" data-listing-file-modified-sort="1723050854000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="263">
+<a href="../blog/second-post/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="../blog/second-post/cover.jpg" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Second Post
+</h5>
+<div class="card-text listing-description">
+Post description for second post
+</div>
+<div class="card-attribution card-text-small justify">
+<div class="listing-author">
+Alicia
+</div>
+<div class="listing-date">
+23 mai 2021
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="2" data-categories="U2NpZW5jZSUyQ0RhdGE=" data-listing-date-sort="1621807200000" data-listing-file-modified-sort="1723050854000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="26">
+<a href="../blog/third-post/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top"><img src="third-post\index_files\figure-html\cell-2-output-1.png" style="height: 150px;"  class="thumbnail-image card-img"/></p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Third Blog Post
+</h5>
+<div class="card-text listing-description">
+An example post where the source document is a Jupyter Notebook
+</div>
+<div class="card-attribution card-text-small justify">
+<div class="listing-author">
+Alicia
+</div>
+<div class="listing-date">
+24 mai 2021
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+</div>
+<div class="listing-no-matching d-none">
+Aucun article correspondant
+</div>
+</div><a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Retour au sommet</a></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {

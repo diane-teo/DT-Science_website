@@ -73,7 +73,7 @@ ul.task-list li input[type="checkbox"] {
 
 <meta property="og:title" content="First Post – Diane &amp; Teo Science">
 <meta property="og:description" content="Post description for first post">
-<meta property="og:image" content="https://diane-teo.quarto.pub/diane-teo-science/blog/first-post/cover.jpg">
+<meta property="og:image" content="cover.jpg">
 <meta property="og:site_name" content="Diane &amp; Teo Science">
 </head>
 
@@ -100,7 +100,7 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text">Accueil</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../test.html"> <i class="bi bi-clipboard-data" role="img">
+    <a class="nav-link" href="../../blog/index.html"> <i class="bi bi-clipboard-data" role="img">
 </i> 
 <span class="menu-text">Analyses</span></a>
   </li>  
@@ -275,7 +275,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   }
     var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
     var mailtoRegex = new RegExp(/^mailto:/);
-      var filterRegex = new RegExp("https:\/\/diane-teo\.quarto\.pub\/diane-teo-science");
+      var filterRegex = new RegExp('/' + window.location.host + '/');
     var isInternal = (href) => {
         return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
     }
