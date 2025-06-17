@@ -158,7 +158,7 @@ window.Quarto = {
 </script>
 
 <meta property="og:title" content="Formation – Diane &amp; Teo Science">
-<meta property="og:image" content="images/R.jpg">
+<meta property="og:image" content="https://diane-teo.quarto.pub/diane-teo-science/formations/images/R.jpg">
 <meta property="og:site_name" content="Diane &amp; Teo Science">
 </head>
 
@@ -481,7 +481,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   }
     var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
     var mailtoRegex = new RegExp(/^mailto:/);
-      var filterRegex = new RegExp('/' + window.location.host + '/');
+      var filterRegex = new RegExp("https:\/\/diane-teo\.quarto\.pub\/diane-teo-science");
     var isInternal = (href) => {
         return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
     }
