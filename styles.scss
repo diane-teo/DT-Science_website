@@ -139,3 +139,16 @@ main.content { /*corps de texte*/
 #center-text-images {
   text-align: center;
 }
+
+
+/* bouton ressource */
+.custom-hover-border {
+  transition: border 0.3s ease, box-shadow 0.3s ease;
+
+  &:hover {
+    background-color: #fbfbfb !important;
+    border: 0.5px solid #c8ced5 !important;     
+    border-radius: 6px;            // Coins arrondis
+    box-shadow: 0 0 5px #e9e9ea !important;  // Optionnel : halo lumineux
+  }
+}

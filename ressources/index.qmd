@@ -19,27 +19,26 @@ execute:
 
 # Ressources
 
-::: {.grid .step .column-page-right}
-::: {.g-col-lg-3 .g-col-12}
-## Step 2 
+<br>
 
-#### Choose your tool<br/>and get started{.fw-light}
-:::
+<br>
 
-::: {.tool .g-col-lg-9 .g-col-12}
+<br>
 
-
-<a href="linkedin.html" role="button" class="btn btn-outline-light">
-![](images/linkedin-logo.png){width="77" fig-alt="Linkedin logo."}
+::: {layout-ncol=4}
+<a href="pages_web.html" role="button" class="btn btn-outline-light custom-hover-border">
+![](images/site-logo.png){width="130" fig-alt="Site logo."} Sites
 </a>
 
-<a href="youtube.html" role="button" class="btn btn-outline-light">
-![](images/youtube-logo.png){width="77" fig-alt="Youtube logo."}
+<a href="videos.html" role="button" class="btn btn-outline-light custom-hover-border">
+![](images/video-logo.png){width="130" fig-alt="video logo."} Videos
 </a>
 
-<a href="livres.html" role="button" class="btn btn-outline-light">
-![](images/livres-logo.png){width="77" fig-alt="Livres."}
+<a href="livres.html" role="button" class="btn btn-outline-light custom-hover-border">
+![](images/livre-logo.png){width="110" fig-alt="Livres logo."} Livres
 </a>
 
-:::
+<a href="packages.html" role="button" class="btn btn-outline-light custom-hover-border">
+![](images/package-logo.png){width="110" fig-alt="Packages logo."} Packages
+</a>
 :::
