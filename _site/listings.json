@@ -2,7 +2,13 @@
   {
     "listing": "/analyses/index.html",
     "items": [
-      "/analyses/test.html"
+      "/analyses/template.html"
+    ]
+  },
+  {
+    "listing": "/formations/index.html",
+    "items": [
+      "/formations/template.html"
     ]
   }
 ]

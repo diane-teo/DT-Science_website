@@ -3,7 +3,7 @@ title: Analyses
 listing:
   contents: 
   - analyses.yml
-  - "test.qmd"
+  - "template.qmd"
   type: grid
   max-description-length: 250
   sort: title

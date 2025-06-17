@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Analyses – Diane &amp; Teo Science</title>
+<title>Livres – Diane &amp; Teo Science</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -31,8 +31,6 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../">
 <link href="../files/loupe_rounded.png" rel="icon" type="image/png">
-<script src="../site_libs/quarto-listing/list.min.js"></script>
-<script src="../site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="../site_libs/quarto-html/quarto.js"></script>
 <script src="../site_libs/quarto-html/popper.min.js"></script>
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -69,72 +67,13 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Recherche"
   }
 }</script>
-<script>
 
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-listing .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
 
-    const options = {
-      valueNames: ['listing-image','listing-title','listing-categories','listing-description','listing-date','listing-author','listing-reading-time',{ data: ['index'] },{ data: ['categories'] }],
-      
-      searchColumns: ["listing-title","listing-date","listing-categories","listing-description"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
-
-  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN") {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
-
-<meta property="og:title" content="Analyses – Diane &amp; Teo Science">
-<meta property="og:image" content="images/bigdata.jpg">
+<meta property="og:title" content="Livres – Diane &amp; Teo Science">
 <meta property="og:site_name" content="Diane &amp; Teo Science">
 </head>
 
-<body class="nav-fixed">
+<body class="nav-fixed fullcontent">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -157,7 +96,7 @@ window.Quarto = {
 <span class="menu-text">Accueil</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="../analyses/index.html" aria-current="page"> <i class="bi bi-bar-chart" role="img">
+    <a class="nav-link" href="../analyses/index.html"> <i class="bi bi-bar-chart" role="img">
 </i> 
 <span class="menu-text">Analyses</span></a>
   </li>  
@@ -167,11 +106,9 @@ window.Quarto = {
 <span class="menu-text">Formations</span></a>
   </li>  
   <li class="nav-item">
-    <span class="nav-link">
-    <i class="bi bi-list-ul" role="img">
+    <a class="nav-link" href="../ressources/index.html"> <i class="bi bi-list-ul" role="img">
 </i> 
-<span class="menu-text">Ressources</span>
-    </span>
+<span class="menu-text">Ressources</span></a>
   </li>  
   <li class="nav-item">
     <span class="nav-link">
@@ -203,15 +140,13 @@ window.Quarto = {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        
-    <h5 class="quarto-listing-category-title">Catégories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">Tous <span class="quarto-category-count">(6)</span></div><div class="category" data-category="QmlnJTIwRGF0YQ==">Big Data <span class="quarto-category-count">(1)</span></div><div class="category" data-category="RWNvbm9tJUMzJUE5dHJpZQ==">Econométrie <span class="quarto-category-count">(5)</span></div><div class="category" data-category="RmluYW5jZXM=">Finances <span class="quarto-category-count">(1)</span></div><div class="category" data-category="R0FN">GAM <span class="quarto-category-count">(1)</span></div><div class="category" data-category="UHl0aG9u">Python <span class="quarto-category-count">(1)</span></div><div class="category" data-category="UXVhcnRv">Quarto <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Ug==">R <span class="quarto-category-count">(5)</span></div><div class="category" data-category="Um1hcmtkb3du">Rmarkdown <span class="quarto-category-count">(3)</span></div><div class="category" data-category="U2NvcmluZw==">Scoring <span class="quarto-category-count">(1)</span></div><div class="category" data-category="U29jaW9sb2dpZQ==">Sociologie <span class="quarto-category-count">(1)</span></div><div class="category" data-category="ZGlhcG9zaXRpdmVz">diapositives <span class="quarto-category-count">(1)</span></div><div class="category" data-category="cGRm">pdf <span class="quarto-category-count">(2)</span></div></div></div>
+    
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Analyses</h1>
+<h1 class="title">Livres</h1>
 </div>
 
 
@@ -231,252 +166,7 @@ window.Quarto = {
 
 
 
-
-<div class="quarto-listing quarto-listing-container-grid" id="listing-listing">
-<div class="listing-actions-group">
-   <div class="input-group input-group-sm quarto-listing-sort">
-     <span class="input-group-text"><i class="bi bi-sort-down"></i></span>
-     <select id="listing-listing-sort" class="form-select" aria-label="Trier par" onchange="window['quarto-listings']['listing-listing'].sort(this.options[this.selectedIndex].value, { order: this.options[this.selectedIndex].getAttribute('data-direction')})">
-       <option value="" disabled="" selected="" hidden="">Trier par</option>
-       <option value="index" data-direction="asc">Ordre par défaut</option>
-         <option value="listing-title" data-direction="asc">
-          Titre
-        </option>
-         <option value="listing-categories" data-direction="asc">
-          Catégories
-        </option>
-     </select>
-  </div>
-    <div class="input-group input-group-sm quarto-listing-filter">
-      <span class="input-group-text"><i class="bi bi-search"></i></span>
-      <input type="text" class="search form-control" placeholder="Filtre">
-    </div>
-</div>
-<div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0" data-categories="UiUyQ1JtYXJrZG93biUyQ0Vjb25vbSVDMyVBOXRyaWUlMkNCaWclMjBEYXRh" data-listing-date-sort="1607122800000">
-<a href="https://teodoromouniertebas.github.io/Master_Works-/Projet_BigData.R.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="images/bigdata.jpg" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-De quoi dépend le cours du Baltic Dry Index ?
-</h5>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('Ug=='); return false;">
-R
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('Um1hcmtkb3du'); return false;">
-Rmarkdown
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('RWNvbm9tJUMzJUE5dHJpZQ=='); return false;">
-Econométrie
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('QmlnJTIwRGF0YQ=='); return false;">
-Big Data
-</div>
-</div>
-<div class="card-text listing-description">
-<p>Le but de ce projet est d’expliquer le cours du Baltic Dry Index (BDI) entre février 2007 et décembre 2018, en utilisant des méthodes de sélection de variables pour appliquer une modélisation par les Moindres Carrés Ordinaires (MCO).</p>
-</div>
-<div class="card-attribution card-text-small end">
-<div class="listing-date">
-5 déc. 2020
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="1" data-categories="UiUyQ3BkZiUyQ0Vjb25vbSVDMyVBOXRyaWUlMkNGaW5hbmNlcw==" data-listing-date-sort="1607554800000">
-<a href="https://raw.githubusercontent.com/DianeThy/Travaux_universitaires/main/Travaux%20Master%202/Analyse%20de%20l'action%20TESLA.pdf" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="images/tesla.png" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Le cours financier Tesla est-il à risque ?
-</h5>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('Ug=='); return false;">
-R
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('cGRm'); return false;">
-pdf
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('RWNvbm9tJUMzJUE5dHJpZQ=='); return false;">
-Econométrie
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('RmluYW5jZXM='); return false;">
-Finances
-</div>
-</div>
-<div class="card-text listing-description">
-<p>Le but de ce projet est de modéliser les rentabilités de l’actif financier TESLA entre 2015 et 2018, afin de prévoir sa volatilité sur l’année 2019 à l’aide de différents modèles GARCH, ainsi que sa valeur à risque.</p>
-</div>
-<div class="card-attribution card-text-small end">
-<div class="listing-date">
-10 déc. 2020
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="2" data-categories="UiUyQ1F1YXJ0byUyQ1JtYXJrZG93bg==" data-listing-date-sort="1750111200000" data-listing-file-modified-sort="1750151196814" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="565">
-<a href="../analyses/template.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="../analyses/images/pinguin.jpg" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Les pingouins ont-ils froid ?
-</h5>
-<div class="listing-reading-time card-text text-muted">
-3 min.
-</div>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('Ug=='); return false;">
-R
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('UXVhcnRv'); return false;">
-Quarto
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('Um1hcmtkb3du'); return false;">
-Rmarkdown
-</div>
-</div>
-<div class="card-text listing-description">
-Vestibulum ultrices, tortor at mattis porta, odio nisi rutrum nulla, sit amet tincidunt eros quam facilisis tellus. Fusce eleifend lectus in elementum lacinia. Nam auctor nunc in massa ullamcorper, sit amet auctor ante accumsan. Nam ut varius…
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-Diane &amp; Teo
-</div>
-<div class="listing-date">
-17 juin 2025
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="3" data-categories="UiUyQ1JtYXJrZG93biUyQ0Vjb25vbSVDMyVBOXRyaWUlMkNHQU0=" data-listing-date-sort="1606258800000">
-<a href="https://teodoromouniertebas.github.io/Master_Works-/projet%20GAM.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="images/gam.png" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Quelle est la durée d’exécution des requêtes Stitch ?
-</h5>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('Ug=='); return false;">
-R
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('Um1hcmtkb3du'); return false;">
-Rmarkdown
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('RWNvbm9tJUMzJUE5dHJpZQ=='); return false;">
-Econométrie
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('R0FN'); return false;">
-GAM
-</div>
-</div>
-<div class="card-text listing-description">
-<p>Le but de ce projet est de créer des modèles additifs généralisés qui prédisent au mieux le temps de durée de chaque job sur la plateforme Stitch.</p>
-</div>
-<div class="card-attribution card-text-small end">
-<div class="listing-date">
-25 nov. 2020
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="4" data-categories="UiUyQ3BkZiUyQ0Vjb25vbSVDMyVBOXRyaWUlMkNTb2Npb2xvZ2ll" data-listing-date-sort="1605826800000">
-<a href="https://raw.githubusercontent.com/DianeThy/Travaux_universitaires/main/Travaux%20Master%202/Poids%20des%20be%CC%81be%CC%81s%20a%CC%80%20la%20naissance%2C%20donne%CC%81es%20de%20panel.pdf" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="images/bebe.png" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Quels facteurs influencent le taux d’insuffisance pondérale dans les pays développés ?
-</h5>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('Ug=='); return false;">
-R
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('cGRm'); return false;">
-pdf
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('RWNvbm9tJUMzJUE5dHJpZQ=='); return false;">
-Econométrie
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('U29jaW9sb2dpZQ=='); return false;">
-Sociologie
-</div>
-</div>
-<div class="card-text listing-description">
-<p>Le but de ce projet est d’analyser les facteurs socio-économiques influençant le faible poids à la naissance dans les pays développés, à travers des données de panel allant de 2000 à 2015.</p>
-</div>
-<div class="card-attribution card-text-small end">
-<div class="listing-date">
-20 nov. 2020
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="5" data-categories="UHl0aG9uJTJDZGlhcG9zaXRpdmVzJTJDRWNvbm9tJUMzJUE5dHJpZSUyQ1Njb3Jpbmc=" data-listing-date-sort="1614207600000">
-<a href="https://raw.githubusercontent.com/DianeThy/Travaux_universitaires/main/Travaux%20Master%202/De%CC%81tection%20de%20fraude%20sur%20transactions%20par%20te%CC%81le%CC%81phone.pdf" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="images/scoring.png" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Y a-t-il fraude dans les transactions financières par téléphone ?
-</h5>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('UHl0aG9u'); return false;">
-Python
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('ZGlhcG9zaXRpdmVz'); return false;">
-diapositives
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('RWNvbm9tJUMzJUE5dHJpZQ=='); return false;">
-Econométrie
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('U2NvcmluZw=='); return false;">
-Scoring
-</div>
-</div>
-<div class="card-text listing-description">
-<p>Le but de ce projet est d’améliorer le système de détection de fraude dans les paiements par téléphone en Afrique, grâce à l’utilisation de modèles de machine learning en temps réel sur 750.000 transactions bancaires.</p>
-</div>
-<div class="card-attribution card-text-small end">
-<div class="listing-date">
-25 févr. 2021
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-</div>
-<div class="listing-no-matching d-none">
-Aucun article correspondant
-</div>
-</div><a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Retour au sommet</a></main> <!-- /main -->
+<a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Retour au sommet</a></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {

@@ -1,0 +1,17 @@
+- title: R pour les débutants
+  path: https://teodoromouniertebas.github.io/Master_Works-/projet%20GAM.html
+  image: images/R.jpg
+  description: >
+    Le but de ce cours est de vous familiariser avec les outils de base pour l'analyse de données en R.
+  categories: [R, Rmarkdown]
+  date: 2020-11-25
+
+- title: Python et R pour l'analyse de données
+  path: https://teodoromouniertebas.github.io/Master_Works-/Projet_BigData.R.html
+  image: images/RP.png
+  description: >
+    Le but de ce cours est de vous familiariser avec les outils de base pour l'analyse de données en Python et R.
+  categories: [R, Python]
+  date: 2020-12-05
+
+

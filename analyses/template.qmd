@@ -1,0 +1,143 @@
+---
+title: "Les pingouins ont-ils froid ?"
+subtitle: "Un exemple de document Quarto"
+author: "Diane & Teo"
+image: images/pinguin.jpg
+description:  |
+ Vestibulum ultrices, tortor at mattis porta, odio nisi rutrum nulla, sit amet tincidunt eros quam facilisis tellus. Fusce eleifend lectus in elementum lacinia. Nam auctor nunc in massa ullamcorper, sit amet auctor ante accumsan. Nam ut varius metus. Curabitur eget tristique leo. Cras finibus euismod erat eget elementum. Integer vel placerat ex. Ut id eros quis lectus lacinia venenatis hendrerit vel ante.
+categories: [R, Quarto, Rmarkdown]
+date: today
+toc: true
+toc-location: left
+code-annotations: hover
+reference-location: margin
+citation-location: margin
+---
+
+::: {.column-margin}
+![](images/pinguin.jpg)
+:::
+
+# Quarto
+
+  links:
+    - icon: github
+      text: Github Teo
+      href: https://github.com/teodoromouniertebas
+    - icon: linkedin
+      text: Linkedin Teo
+      href: https://www.linkedin.com/in/teodoro-mounier-tebas-a423341a3/
+    - icon: github
+      text: Github Diane
+      href: https://github.com/dianethy
+    - icon: linkedin
+      text: Linkedin Diane
+      href: https://www.linkedin.com/in/diane-thierry-b22099193/
+
+
+
+## Running Code
+
+{{< lipsum 1 >}}
+
+### mon titre 3
+
+{{< lipsum 1 >}}
+
+#### header 4
+
+{{< lipsum 1 >}}
+
+
+
+> When you click the **Render** button a document will be generated that includes both content and the output of embedded code. You can embed code like this. When you click the **Render** button a document will be generated that includes both content and the output of embedded code. 
+
+{{< lipsum 1 >}}
+
+```{r}
+radius <- 5
+#ceci est un commentaire
+```
+
+#### bblabla 
+When you click the **Render** button a document will be generated that includes both content and the output of embedded code. You can embed code like this:
+
+
+### Running Code bis
+When you click the **Render** button a document will be generated that `{r} radius` includes both content and the output of embedded code. You can embed code like this:
+
+::: {.column-margin}
+We know from *the first fundamental theorem of calculus* that for $x$ in $[a, b]$:
+
+$$\frac{d}{dx}\left( \int_{a}^{x} f(u)\,du\right)=f(x).$$
+:::
+
+## Running Code
+
+### blblbk
+
+::: {.callout-note}
+Note that there are five types of callouts, including:
+`note`, `warning`, `important`, `tip`, and `caution`.
+:::
+
+::: {.callout-tip}
+## conseil
+
+This is an example of a callout with a title.
+:::
+
+::: {.callout-caution}
+## prudence
+
+This is an example of a callout with a title.
+:::
+
+
+::: {.callout-warning}
+## avertissement
+
+This is an example of a callout with a title.
+:::
+
+::: {.callout-important}
+## important
+
+This is an example of a callout with a title.
+:::
+
+
+
+
+```{r}
+radius <- 5
+```
+
+### blblbk
+When you click the **Render** button a document will be generated that `{r} radius` includes both content and the output of embedded code. You can embed code like this:
+
+
+# Rstudio
+
+```{r}
+#| message: false
+#| warning: false
+#| eval: false
+library(tidyverse)
+library(palmerpenguins)
+penguins |>                                      # <1>
+  mutate(                                        # <2>
+    bill_ratio = bill_depth_mm / bill_length_mm, # <2>
+    bill_area  = bill_depth_mm * bill_length_mm  # <2>
+  )                                              # <2>
+```
+1. Take `penguins`, and then,
+2. add new columns for the bill ratio and bill area.
+
+
+## Running Code
+### Running Code
+When you click the **Render** button a document will be generated that includes both content and the output of embedded code. You can embed code like this:
+
+### Running Code bis
+When you click the **Render** button a document will be generated that `{r} radius` includes both content and the output of embedded code. You can embed code like this:

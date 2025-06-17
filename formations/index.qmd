@@ -1,0 +1,29 @@
+---
+title: Formation
+toc: true
+toc-title: Domaine de formation
+listing:
+  - id: Programmation
+    contents: formations.yml
+    type: default
+    max-description-length: 250
+    fields: [image, title, categories, description, date, author]
+    image-align: left
+  - id: Economie
+    contents: "template.qmd"
+    type: default
+    max-description-length: 250
+    fields: [image, title, categories, description, date, author]
+    image-align: left
+---
+
+
+## Programmation
+
+:::{#Programmation}
+:::
+
+## Économie
+
+:::{#Economie}
+:::

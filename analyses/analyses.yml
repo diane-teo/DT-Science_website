@@ -22,7 +22,7 @@
   categories: [R, pdf, Econométrie, Finances]
   date: 2020-12-10
 
-- title: Cette transaction financière par téléphone est-elle frauduleuse ?
+- title: Y a-t-il fraude dans les transactions financières par téléphone ?
   path: https://raw.githubusercontent.com/DianeThy/Travaux_universitaires/main/Travaux%20Master%202/De%CC%81tection%20de%20fraude%20sur%20transactions%20par%20te%CC%81le%CC%81phone.pdf
   image: images/scoring.png
   description: >
@@ -30,8 +30,8 @@
   categories: [Python, diapositives, Econométrie, Scoring]
   date: 2021-02-25
 
-- title: Analyse du poids des bébés à la naissance
-  path: hhttps://raw.githubusercontent.com/DianeThy/Travaux_universitaires/main/Travaux%20Master%202/Poids%20des%20be%CC%81be%CC%81s%20a%CC%80%20la%20naissance%2C%20donne%CC%81es%20de%20panel.pdf
+- title: Quels facteurs influencent le taux d’insuffisance pondérale dans les pays développés ?
+  path: https://raw.githubusercontent.com/DianeThy/Travaux_universitaires/main/Travaux%20Master%202/Poids%20des%20be%CC%81be%CC%81s%20a%CC%80%20la%20naissance%2C%20donne%CC%81es%20de%20panel.pdf
   image: images/bebe.png
   description: >
     Le but de ce projet est d’analyser les facteurs socio-économiques influençant le faible poids à la naissance dans les pays développés, à travers des données de panel allant de 2000 à 2015.

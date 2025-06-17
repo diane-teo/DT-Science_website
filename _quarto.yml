@@ -22,8 +22,10 @@ website:
         href: analyses/index.qmd
       - icon: bi-book
         text: Formations
+        href: formations/index.qmd
       - icon: bi-list-ul
         text: Ressources
+        href: ressources/index.qmd
       - icon: bi-basket3
         text: Autres
     right:
