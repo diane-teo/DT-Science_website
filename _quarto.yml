@@ -37,6 +37,6 @@ website:
 lang: fr
 format:
   html:
-    theme: [cosmo, styles.scss]
+    theme: styles.scss
     grid:
       body-width: 1000px

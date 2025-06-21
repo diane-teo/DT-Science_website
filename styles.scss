@@ -1,6 +1,7 @@
 /*-- scss:defaults --*/
 @import url('https://fonts.googleapis.com/css?family=Noto+Serif|Alegreya|Amiko|Noto+Sans|Fira+Code');
 
+
 /* Basic Colors */
 $primary: #0a2654; 
 $secondary: #9e2e12;
@@ -71,7 +72,7 @@ $code-annotation-higlight-bg: $code-anotation-color;
   text-align: center;
   video {
   width: 520px;
-  margin-top: 70px;
+  margin-top: 60px;
   display: inline-block;
     
   }
@@ -151,4 +152,18 @@ main.content { /*corps de texte*/
     border-radius: 6px;            // Coins arrondis
     box-shadow: 0 0 5px #e9e9ea !important;  // Optionnel : halo lumineux
   }
+}
+
+a.btn.custom-hover-border {
+  color: #E9E9EA; // remplace par la couleur souhaitée
+}
+a.btn.custom-hover-border:hover {
+  color: #a0a0a0; // couleur au survol, si différente
+}
+
+/* Style images listing formations */
+.page-formations .thumbnail-image {
+  transform: scale(0.8);
+  transform-origin: top center; 
+  margin-top: -10px !important;
 }

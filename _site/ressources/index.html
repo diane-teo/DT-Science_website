@@ -39,7 +39,7 @@ ul.task-list li input[type="checkbox"] {
 <link href="../site_libs/quarto-html/quarto-syntax-highlighting-75f85ff3afe47a507ba5bdac098e00a3.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-f066987cd62b59893618364b1fab8a5b.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-f370282136d97c83b6a79cb8f5ca9a96.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -70,11 +70,9 @@ ul.task-list li input[type="checkbox"] {
 
 
 <meta property="og:title" content="Diane &amp; Teo Science">
-<meta property="og:image" content="https://diane-teo.quarto.pub/diane-teo-science/ressources/images/site-logo.png">
+<meta property="og:image" content="images/site-logo.svg">
 <meta property="og:site_name" content="Diane &amp; Teo Science">
 <meta property="og:image:alt" content="Site logo.">
-<meta property="og:image:height" content="120">
-<meta property="og:image:width" content="130">
 </head>
 
 <body class="nav-fixed fullcontent">
@@ -162,23 +160,22 @@ ul.task-list li input[type="checkbox"] {
 <h1>Veille sur différentes plateformes</h1>
 <p><br></p>
 <p><br></p>
-<p><br></p>
 <div>
 
 </div>
 <div class="quarto-layout-panel" data-layout-ncol="4">
 <div class="quarto-layout-row">
 <div class="quarto-layout-cell" style="flex-basis: 25.0%;justify-content: flex-start;">
-<p><a href="pages_web.html" role="button" class="btn btn-outline-light custom-hover-border"> <img src="images/site-logo.png" class="img-fluid" alt="Site logo." width="130"> Sites </a></p>
+<p><a href="pages_web.html" role="button" class="btn btn-outline-light custom-hover-border"> <img src="images/site-logo.svg" class="img-fluid" alt="Site logo." width="130"> Sites </a></p>
 </div>
 <div class="quarto-layout-cell" style="flex-basis: 25.0%;justify-content: flex-start;">
-<p><a href="videos.html" role="button" class="btn btn-outline-light custom-hover-border"> <img src="images/video-logo.png" class="img-fluid" alt="video logo." width="130"> Videos </a></p>
+<p><a href="videos.html" role="button" class="btn btn-outline-light custom-hover-border"> <img src="images/video-logo.svg" class="img-fluid" alt="video logo." width="130"> Videos </a></p>
 </div>
 <div class="quarto-layout-cell" style="flex-basis: 25.0%;justify-content: flex-start;">
-<p><a href="livres.html" role="button" class="btn btn-outline-light custom-hover-border"> <img src="images/livre-logo.png" class="img-fluid" alt="Livres logo." width="110"> Livres </a></p>
+<p><a href="livres.html" role="button" class="btn btn-outline-light custom-hover-border"> <img src="images/livre-logo.svg" class="img-fluid" alt="Livres logo." width="110"> Livres </a></p>
 </div>
 <div class="quarto-layout-cell" style="flex-basis: 25.0%;justify-content: flex-start;">
-<p><a href="packages.html" role="button" class="btn btn-outline-light custom-hover-border"> <img src="images/package-logo.png" class="img-fluid" alt="Packages logo." width="110"> Packages </a></p>
+<p><a href="packages.html" role="button" class="btn btn-outline-light custom-hover-border"> <img src="images/package-logo.svg" class="img-fluid" alt="Packages logo." width="110"> Packages </a></p>
 </div>
 </div>
 </div>
@@ -277,7 +274,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   }
     var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
     var mailtoRegex = new RegExp(/^mailto:/);
-      var filterRegex = new RegExp("https:\/\/diane-teo\.quarto\.pub\/diane-teo-science");
+      var filterRegex = new RegExp('/' + window.location.host + '/');
     var isInternal = (href) => {
         return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
     }

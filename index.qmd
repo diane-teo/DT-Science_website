@@ -25,16 +25,8 @@ execute:
 ```
 :::
 
-::: justify
-Nous sommes un couple de data scientists passionnés qui s'est rencontré à l'université lors de nos études d'économie. Après avoir approfondi nos connaissances avec un master en **économétrie et statistiques appliquées** ([Master ECAP](https://sites.google.com/view/master-ecap/accueil)), nous évoluons aujourd'hui chacun dans des entreprises différentes. 
 
 
-Ce site web rassemble et présente nos projets personnels en data science, motivés par notre passion et expertise pour l'analyse de données. Notre approche se veut ouverte en rendant accessibles nos méthodes, nos codes et nos réflexions.
-:::
-
-<br>
-<br>
-<br>
 
 
 ::: {#hero-banner .column-screen}
@@ -156,10 +148,16 @@ html {
 
 
 <br>
-<br>
 
 ::: {#h1-sans-ligne}
 Qui sommes-nous ?
+:::
+
+::: justify
+Nous sommes un couple de data scientists passionnés qui s'est rencontré à l'université lors de nos études d'économie. Après avoir approfondi nos connaissances avec un master en **économétrie et statistiques appliquées** ([Master ECAP](https://sites.google.com/view/master-ecap/accueil)), nous évoluons aujourd'hui chacun dans des entreprises différentes. 
+
+
+Ce site web rassemble et présente nos projets personnels en data science, motivés par notre passion et expertise pour l'analyse de données. Notre approche se veut ouverte en rendant accessibles nos méthodes, nos codes et nos réflexions.
 :::
 
 <br>

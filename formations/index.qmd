@@ -17,6 +17,7 @@ listing:
     image-align: left
 ---
 
+::: {.page-formations}
 
 ## Programmation
 
@@ -26,4 +27,6 @@ listing:
 ## Économie
 
 :::{#Economie}
+:::
+
 :::

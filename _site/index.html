@@ -39,7 +39,7 @@ ul.task-list li input[type="checkbox"] {
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-75f85ff3afe47a507ba5bdac098e00a3.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-f066987cd62b59893618364b1fab8a5b.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-f370282136d97c83b6a79cb8f5ca9a96.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -71,10 +71,8 @@ ul.task-list li input[type="checkbox"] {
 
 <meta property="og:title" content="Diane &amp; Teo Science">
 <meta property="og:description" content="">
-<meta property="og:image" content="https://diane-teo.quarto.pub/diane-teo-science/files/analyses.png">
+<meta property="og:image" content="./files/analyses.png">
 <meta property="og:site_name" content="Diane &amp; Teo Science">
-<meta property="og:image:height" content="843">
-<meta property="og:image:width" content="991">
 </head>
 
 <body class="nav-fixed fullcontent">
@@ -163,11 +161,6 @@ ul.task-list li input[type="checkbox"] {
 <source src="files/video_logo.mp4" type="video/mp4">
 </video>
 </div>
-<div class="justify">
-<p>Nous sommes un couple de data scientists passionnés qui s’est rencontré à l’université lors de nos études d’économie. Après avoir approfondi nos connaissances avec un master en <strong>économétrie et statistiques appliquées</strong> (<a href="https://sites.google.com/view/master-ecap/accueil">Master ECAP</a>), nous évoluons aujourd’hui chacun dans des entreprises différentes.</p>
-<p>Ce site web rassemble et présente nos projets personnels en data science, motivés par notre passion et expertise pour l’analyse de données. Notre approche se veut ouverte en rendant accessibles nos méthodes, nos codes et nos réflexions.</p>
-</div>
-<p><br> <br> <br></p>
 <div id="hero-banner" class="column-screen page-columns page-full">
 <div class="grid column-body">
 <div class="headline g-col-lg-6 g-col-12 g-col-md-12">
@@ -323,9 +316,13 @@ html {
 
 
 </style>
-<p><br> <br></p>
+<p><br></p>
 <div id="h1-sans-ligne">
 <p>Qui sommes-nous ?</p>
+</div>
+<div class="justify">
+<p>Nous sommes un couple de data scientists passionnés qui s’est rencontré à l’université lors de nos études d’économie. Après avoir approfondi nos connaissances avec un master en <strong>économétrie et statistiques appliquées</strong> (<a href="https://sites.google.com/view/master-ecap/accueil">Master ECAP</a>), nous évoluons aujourd’hui chacun dans des entreprises différentes.</p>
+<p>Ce site web rassemble et présente nos projets personnels en data science, motivés par notre passion et expertise pour l’analyse de données. Notre approche se veut ouverte en rendant accessibles nos méthodes, nos codes et nos réflexions.</p>
 </div>
 <p><br> <br></p>
 <div>
@@ -448,7 +445,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   }
     var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
     var mailtoRegex = new RegExp(/^mailto:/);
-      var filterRegex = new RegExp("https:\/\/diane-teo\.quarto\.pub\/diane-teo-science");
+      var filterRegex = new RegExp('/' + window.location.host + '/');
     var isInternal = (href) => {
         return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
     }
